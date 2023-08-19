@@ -2,14 +2,20 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objPlayer",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Elements",
     "path": "folders/Objects/Elements.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "parPlayer",
+    "path": "objects/parPlayer/parPlayer.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,6 +35,9 @@
     "name": "sprCC1skinPollier",
     "path": "sprites/sprCC1skinPollier/sprCC1skinPollier.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprCC1mask",
+    "path": "sprites/sprCC1mask/sprCC1mask.yy",
+  },
   "visible": true,
 }

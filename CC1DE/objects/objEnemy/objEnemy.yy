@@ -2,14 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objEnemy",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
     "path": "folders/Objects/Enemy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "parEnemy",
+    "path": "objects/parEnemy/parEnemy.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

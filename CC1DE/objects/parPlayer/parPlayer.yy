@@ -1,19 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objTrampolin",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "parPlayer",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Elements",
-    "path": "folders/Objects/Elements.yy",
+    "name": "General",
+    "path": "folders/Objects/General.yy",
   },
   "parentObjectId": {
-    "name": "parObject",
-    "path": "objects/parObject/parObject.yy",
+    "name": "parEntity",
+    "path": "objects/parEntity/parEntity.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprCC1elmtTampolin",
-    "path": "sprites/sprCC1elmtTampolin/sprCC1elmtTampolin.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
