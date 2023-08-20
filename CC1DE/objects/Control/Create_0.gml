@@ -1,4 +1,5 @@
 #region Variables
+scrData();
 MusicActual = sndNo;
 VolumeMusic = .25;
 VolumeSound = .5;

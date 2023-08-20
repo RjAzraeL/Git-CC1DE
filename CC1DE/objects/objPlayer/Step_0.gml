@@ -1,3 +1,16 @@
+#region Animation
+if (Animated == 0)
+{
+	if (Animation > 0 and image_speed == 0)
+	{
+		Animation--;
+	}
+	else
+	{
+		image_speed = 1;
+	}
+}
+#endregion
 #region Movement
 var DirectionMovement = 0;
 if (!Victory)

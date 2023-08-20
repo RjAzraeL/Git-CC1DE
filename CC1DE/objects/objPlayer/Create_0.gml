@@ -1,9 +1,13 @@
 #region Variables
 event_inherited();
-ActualSkin[0] = sprCC1skinIris;
-ActualSkin[1] = sprCC1RskinIris;
+ChickenValue = irandom( ds_list_size(Control.DataChicken)-1 );
+ActualSkin[0] = ds_list_find_value( scrChickenGet(ChickenValue , "Sprite") , 0);
+ActualSkin[1] = ds_list_find_value( scrChickenGet(ChickenValue , "Sprite") , 1);
 image_speed = 0;
 Victory = false;
+Animated = scrChickenGet(ChickenValue , "Animated");
+image_speed = Animated;
+Animation = 180;
 #region Stats
 Speed = 3;
 JumpValue = 6;

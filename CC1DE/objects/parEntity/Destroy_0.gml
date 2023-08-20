@@ -1,6 +1,10 @@
 #region Destroy
 if (object_index != objCoin)
 {
+	if (object_index == objPlayer)
+	{
+		scrSound(sndDeath);
+	}
 	var Death = instance_create_depth(x,y,depth-1,objDeath);
 	Death.sprite_index = sprite_index;
 	Death.image_speed = 0;
