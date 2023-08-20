@@ -1,5 +1,13 @@
 #region Movement
-var DirectionMovement = Control.KeyRightActive - Control.KeyLeftActive;
+var DirectionMovement = 0;
+if (!Victory)
+{
+	DirectionMovement = Control.KeyRightActive - Control.KeyLeftActive;
+}
+else
+{
+	DirectionMovement = 1;
+}
 MovHor = DirectionMovement*Speed;
 if (!place_meeting(x,y+1,objSolid))
 {
@@ -48,7 +56,20 @@ y += MovVer;
 #region Outside
 if (y >= room_height)
 {
-	room_restart();
+	instance_destroy();
+}
+#endregion
+#region Clamp
+if (!Victory)
+{
+	x = clamp(x , 0 , room_width);
+}
+else
+{
+	if (x > room_width)
+	{
+		room_goto_next();
+	}
 }
 #endregion
 #endregion

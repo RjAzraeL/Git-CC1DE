@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objMask",
+  "name": "objSign",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "General",
-    "path": "folders/Objects/General.yy",
+    "name": "Elements",
+    "path": "folders/Objects/Elements.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprCC1Rmask",
-    "path": "sprites/sprCC1Rmask/sprCC1Rmask.yy",
+    "name": "sprSign",
+    "path": "sprites/sprSign/sprSign.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
