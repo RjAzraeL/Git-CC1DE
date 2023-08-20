@@ -1,5 +1,5 @@
 ///@arg boton
-function scr_cambiar_pantalla(Boton)
+function scrChangeWindow(Boton)
 {
 	if (keyboard_check_pressed(Boton))
 	{

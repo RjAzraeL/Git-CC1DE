@@ -45,4 +45,10 @@ if (MovHor < 0)
 x += MovHor;
 y += MovVer;
 #endregion
+#region Outside
+if (y >= room_height)
+{
+	room_restart();
+}
+#endregion
 #endregion

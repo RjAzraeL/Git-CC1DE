@@ -86,6 +86,7 @@
     {"name":"objSolid","order":2,"path":"objects/objSolid/objSolid.yy",},
     {"name":"sprCC1Rzn1Enemie2b","order":4,"path":"sprites/sprCC1Rzn1Enemie2b/sprCC1Rzn1Enemie2b.yy",},
     {"name":"scr_graficos_escalado","order":3,"path":"scripts/scr_graficos_escalado/scr_graficos_escalado.yy",},
+    {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
     {"name":"rmZn1lv4a","order":6,"path":"rooms/rmZn1lv4a/rmZn1lv4a.yy",},
     {"name":"sprCC1skinAngel","order":27,"path":"sprites/sprCC1skinAngel/sprCC1skinAngel.yy",},
     {"name":"sprCC1Rzn1Enemie2","order":3,"path":"sprites/sprCC1Rzn1Enemie2/sprCC1Rzn1Enemie2.yy",},

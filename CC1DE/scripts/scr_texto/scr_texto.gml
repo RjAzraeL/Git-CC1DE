@@ -14,7 +14,7 @@
 ///@arg angulo
 ///@arg transparencia
 ///@arg longitud
-function scr_texto(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13 , argument14) 
+function scrText(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13 , argument14) 
 {
 	draw_set_valign(argument3); //Alineacion Vertical
 	draw_set_halign(argument4); //Alineacion Horizontal

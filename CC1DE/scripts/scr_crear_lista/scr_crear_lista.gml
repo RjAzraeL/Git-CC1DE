@@ -1,6 +1,6 @@
 ///@desc Crea una lista y la retorna
 ///@arg valor*
-function scr_crear_lista()
+function scrListMaker()
 {
 	
 	var NuevaLista = ds_list_create();

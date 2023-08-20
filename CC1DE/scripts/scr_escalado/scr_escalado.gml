@@ -1,7 +1,7 @@
 ///@arg anchura
 ///@arg altura
 ///@arg escalado
-function scr_escalado(RES_W , RES_H , RES_SCALE)
+function scrScaleResolution(RES_W , RES_H , RES_SCALE)
 {
     var FullScreenValor = window_get_fullscreen();
 

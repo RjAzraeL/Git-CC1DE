@@ -1,8 +1,8 @@
-function scr_x()
+function scrX()
 {
 	return camera_get_view_x(view_camera[0]);
 }
-function scr_y()
+function scrY()
 {
 	return camera_get_view_y(view_camera[0]);
 }

@@ -1,3 +1,7 @@
+#region General
+scrChangeWindow(vk_f4);
+scrRestartGame(ord("R"));
+#endregion
 #region Keys
 KeyLeftActive = keyboard_check(KeyLeft);
 KeyRightActive = keyboard_check(KeyRight);

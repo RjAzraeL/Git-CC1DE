@@ -1,4 +1,4 @@
-function scr_crear_color(CRojo , CVerde , CAzul)
+function scrColorMaker(CRojo , CVerde , CAzul)
 {
 	Rojo = CRojo;
 	Verde = CVerde;

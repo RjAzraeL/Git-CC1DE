@@ -1,5 +1,5 @@
 ///@arg alpha
-function scr_dibujar_rectangulo_negro(Alpha)
+function scrDrawRectangle(Alpha)
 {
 	#region Dibujar rectángulo
 	draw_set_alpha(Alpha);
@@ -10,7 +10,7 @@ function scr_dibujar_rectangulo_negro(Alpha)
 	#endregion
 }
 ///@arg alpha
-function scr_dibujar_rectangulo_blanco(Alpha)
+function scrDrawRectangleWhite(Alpha)
 {
 	#region Dibujar rectángulo
 	draw_sprite_ext(sprPuntoBlanco , 0 , 0 , 0 , room_width , room_height , 0 , c_white , Alpha);

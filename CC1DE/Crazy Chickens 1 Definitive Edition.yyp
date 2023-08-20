@@ -114,6 +114,7 @@
     {"id":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},},
     {"id":{"name":"sprCC1Rzn1Enemie2b","path":"sprites/sprCC1Rzn1Enemie2b/sprCC1Rzn1Enemie2b.yy",},},
     {"id":{"name":"scr_graficos_escalado","path":"scripts/scr_graficos_escalado/scr_graficos_escalado.yy",},},
+    {"id":{"name":"objDeath","path":"objects/objDeath/objDeath.yy",},},
     {"id":{"name":"rmZn1lv4a","path":"rooms/rmZn1lv4a/rmZn1lv4a.yy",},},
     {"id":{"name":"sprCC1skinAngel","path":"sprites/sprCC1skinAngel/sprCC1skinAngel.yy",},},
     {"id":{"name":"sprCC1Rzn1Enemie2","path":"sprites/sprCC1Rzn1Enemie2/sprCC1Rzn1Enemie2.yy",},},

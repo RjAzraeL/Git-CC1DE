@@ -1,6 +1,6 @@
 /// @desc Si existe el objeto devuelve verdadero
 /// @arg objeto
-function scr_existe(objeto)
+function scrExist(objeto)
 {
 	if (objeto == undefined)
 	{

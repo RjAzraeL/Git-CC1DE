@@ -1,5 +1,5 @@
 ///@arg boton
-function scr_reiniciar_juego(Boton)
+function scrRestartGame(Boton)
 {
 	if (keyboard_check_pressed(Boton))
 	{
