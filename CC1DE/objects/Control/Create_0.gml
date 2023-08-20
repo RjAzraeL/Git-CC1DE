@@ -1,4 +1,5 @@
 #region Variables
+scrScaleResolution(853,480,2);
 ActualStyle = 0;
 #region Controls
 KeyLeft = vk_left;

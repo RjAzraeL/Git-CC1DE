@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "General",
-    "path": "folders/Objects/General.yy",
+    "path": "folders/Objects/Enemy/General.yy",
   },
   "parentObjectId": null,
   "persistent": false,

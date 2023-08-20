@@ -4,7 +4,7 @@
     {"name":"Objects","order":7,"path":"folders/Objects.yy",},
     {"name":"Elements","order":6,"path":"folders/Objects/Elements.yy",},
     {"name":"Enemy","order":7,"path":"folders/Objects/Enemy.yy",},
-    {"name":"General","order":8,"path":"folders/Objects/General.yy",},
+    {"name":"General","order":2,"path":"folders/Objects/Enemy/General.yy",},
     {"name":"Particle Systems","order":10,"path":"folders/Particle Systems.yy",},
     {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
     {"name":"Zn1","order":2,"path":"folders/Rooms/Zn1.yy",},

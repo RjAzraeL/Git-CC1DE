@@ -15,7 +15,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Elements","folderPath":"folders/Objects/Elements.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Objects/Enemy.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"General","folderPath":"folders/Objects/General.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"General","folderPath":"folders/Objects/Enemy/General.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn1","folderPath":"folders/Rooms/Zn1.yy",},
@@ -184,8 +184,8 @@
     {"id":{"name":"rmZn1lv1a","path":"rooms/rmZn1lv1a/rmZn1lv1a.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmZn1lv1a","path":"rooms/rmZn1lv1a/rmZn1lv1a.yy",},},
     {"roomId":{"name":"rmZn1lv1b","path":"rooms/rmZn1lv1b/rmZn1lv1b.yy",},},
+    {"roomId":{"name":"rmZn1lv1a","path":"rooms/rmZn1lv1a/rmZn1lv1a.yy",},},
     {"roomId":{"name":"rmZn1lv2a","path":"rooms/rmZn1lv2a/rmZn1lv2a.yy",},},
     {"roomId":{"name":"rmZn1lv2b","path":"rooms/rmZn1lv2b/rmZn1lv2b.yy",},},
     {"roomId":{"name":"rmZn1lv3a","path":"rooms/rmZn1lv3a/rmZn1lv3a.yy",},},

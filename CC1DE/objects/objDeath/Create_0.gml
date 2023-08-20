@@ -1,6 +1,6 @@
 #region Variable
-direction = random_range(80,100);
-speed = 4;
+direction = random_range(45,135);
+speed = 7;
 gravity = .5;
 gravity_direction = 270;
 #endregion

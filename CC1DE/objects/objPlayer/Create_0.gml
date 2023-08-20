@@ -6,8 +6,8 @@ image_speed = 0;
 
 #region Stats
 Speed = 3;
-JumpValue = 8;
-Gravity = .5;
+JumpValue = 6;
+Gravity = .25;
 MovHor = 0;
 MovVer = 0;
 #endregion
