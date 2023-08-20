@@ -1,17 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objDeath",
+  "name": "parAttack",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Elements",
-    "path": "folders/Objects/Elements.yy",
+    "name": "General",
+    "path": "folders/Objects/General.yy",
   },
   "parentObjectId": {
     "name": "parEntity",
@@ -32,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprCC1zn1Enemie1",
-    "path": "sprites/sprCC1zn1Enemie1/sprCC1zn1Enemie1.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

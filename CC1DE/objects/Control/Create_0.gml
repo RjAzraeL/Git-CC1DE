@@ -23,5 +23,8 @@ KeyJumpActive = false;
 KeyShot1Active = false;
 KeyShot2Active = false;
 KeyShot3Active = false;
+KeyShot1Pressed = false;
+KeyShot2Pressed = false;
+KeyShot3Pressed = false;
 #endregion
 #endregion

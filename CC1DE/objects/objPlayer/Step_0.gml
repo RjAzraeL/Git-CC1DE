@@ -28,7 +28,7 @@ if (!place_meeting(x,y+1,objSolid))
 }
 
 #region Jump
-if (Control.KeyJumpActive and place_meeting(x,y+1,objSolid) and !place_meeting(x,y-JumpValue,objSolid))
+if (Control.KeyJumpActive and place_meeting(x,y+1,objSolid) and !place_meeting(x,y-JumpValue,objSolid) and !Victory)
 {
 	MovVer = -JumpValue;
 }
@@ -52,6 +52,38 @@ if (place_meeting(x , y + MovVer , objSolid))
 	MovVer = 0;
 }
 #endregion
+
+#region Energy
+if (Energy < 100)
+{
+	Energy++;
+}
+#endregion
+
+#region Shot
+if (Control.KeyShot1Pressed and Energy >= 33)
+{
+	scrSound(sndShot);
+	Energy -= 33;
+	var Egg = instance_create_depth(x,y,depth-1,objAttackEgg);
+	Egg.MovHor = sign(image_xscale)*5;
+}
+if (Control.KeyShot2Pressed and Energy >= 33)
+{
+	scrSound(sndShot);
+	Energy -= 33;
+	var Egg = instance_create_depth(x,y,depth-1,objAttackEgg);
+	Egg.MovHor = sign(image_xscale)*5;
+}
+if (Control.KeyShot3Pressed and Energy >= 33)
+{
+	scrSound(sndShot);
+	Energy -= 33;
+	var Egg = instance_create_depth(x,y,depth-1,objAttackEgg);
+	Egg.MovHor = sign(image_xscale)*5;
+}
+#endregion
+
 #region Scale
 if (MovHor > 0)
 {

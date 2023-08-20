@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objDeath",
+  "name": "objAttackEgg",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -14,8 +13,8 @@
     "path": "folders/Objects/Elements.yy",
   },
   "parentObjectId": {
-    "name": "parEntity",
-    "path": "objects/parEntity/parEntity.yy",
+    "name": "parAttack",
+    "path": "objects/parAttack/parAttack.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,9 +32,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprCC1zn1Enemie1",
-    "path": "sprites/sprCC1zn1Enemie1/sprCC1zn1Enemie1.yy",
+    "name": "sprCC1atkHuevo",
+    "path": "sprites/sprCC1atkHuevo/sprCC1atkHuevo.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spratkEggMask",
+    "path": "sprites/spratkEggMask/spratkEggMask.yy",
+  },
   "visible": true,
 }

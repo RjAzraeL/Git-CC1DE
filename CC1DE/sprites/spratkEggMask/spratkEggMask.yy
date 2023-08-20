@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprCC1atkHuevo",
-  "bbox_bottom": 31,
-  "bbox_left": 6,
-  "bbox_right": 38,
-  "bbox_top": 12,
+  "name": "spratkEggMask",
+  "bbox_bottom": 23,
+  "bbox_left": 8,
+  "bbox_right": 23,
+  "bbox_top": 8,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2cccb4f-7cde-4075-b0f1-0ea078bbf93a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0a70b7ad-d3ac-460e-ada2-8002e73c0e31",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8d03569e-7780-4d74-b87f-c85feea4c3a8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"68cf659f-b918-4f3c-9675-cbd4480c075b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprCC1atkHuevo",
+    "name": "spratkEggMask",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a2cccb4f-7cde-4075-b0f1-0ea078bbf93a","path":"sprites/sprCC1atkHuevo/sprCC1atkHuevo.yy",},},},"Disabled":false,"id":"78d5eacb-d709-478c-ade7-50f3c18c9a26","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0a70b7ad-d3ac-460e-ada2-8002e73c0e31","path":"sprites/spratkEggMask/spratkEggMask.yy",},},},"Disabled":false,"id":"7526e40c-ec62-4897-b31d-b5ef3e310fce","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -8,6 +8,7 @@ Victory = false;
 Animated = scrChickenGet(ChickenValue , "Animated");
 image_speed = Animated;
 Animation = 180;
+Energy = 100;
 #region Stats
 Speed = 3;
 JumpValue = 6;
