@@ -13,3 +13,18 @@ KeyShot1Pressed = keyboard_check_pressed(KeyShot1);
 KeyShot2Pressed = keyboard_check_pressed(KeyShot2);
 KeyShot3Pressed = keyboard_check_pressed(KeyShot3);
 #endregion
+#region Style
+var _fx_struct = layer_get_fx("fxStyle");
+if (_fx_struct != -1)
+{
+    var _params = fx_get_parameters(_fx_struct);
+	StyleVariable = lerp(StyleVariable , StyleVariableTope , StyleVariableMove);
+	_params.g_ZoomBlurIntensity = StyleVariable;
+    fx_set_parameters(_fx_struct, _params);
+}
+if (StyleVariable > 10 and StyleVariableTope > 0)
+{
+	scrChangeStyle();
+	StyleVariableTope = 0;
+}
+#endregion

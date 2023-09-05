@@ -13,6 +13,7 @@
     {"name":"Secuencias","order":9,"path":"folders/Secuencias.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
+    {"name":"General","order":2,"path":"folders/Sounds/General.yy",},
     {"name":"Attacks","order":6,"path":"folders/Sprites/Attacks.yy",},
     {"name":"CC1","order":1,"path":"folders/Sprites/Attacks/CC1.yy",},
     {"name":"CC1R","order":2,"path":"folders/Sprites/Attacks/CC1R.yy",},
@@ -42,7 +43,6 @@
     {"name":"Zn8","order":7,"path":"folders/Sprites/Zn/CC1R/Zn8.yy",},
     {"name":"CCDE","order":3,"path":"folders/Sprites/Zn/CCDE.yy",},
     {"name":"Tiles","order":1,"path":"folders/Tiles.yy",},
-    {"name":"General","order":2,"path":"folders/Sounds/General.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprCC1RskinPollisor","order":5,"path":"sprites/sprCC1RskinPollisor/sprCC1RskinPollisor.yy",},

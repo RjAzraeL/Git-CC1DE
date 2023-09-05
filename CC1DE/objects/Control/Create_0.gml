@@ -27,4 +27,11 @@ KeyShot1Pressed = false;
 KeyShot2Pressed = false;
 KeyShot3Pressed = false;
 #endregion
+#region Style
+current_style = 1;
+StyleVariable = 0;
+StyleVariableMove = 0;
+StyleVariableTope = 10;
+#endregion
+
 #endregion

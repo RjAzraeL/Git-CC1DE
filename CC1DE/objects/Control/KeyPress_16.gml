@@ -1,5 +1,7 @@
 #region Change style
 scrSound(sndNo);
 ActualStyle = !ActualStyle;
-scrChangeStyle();
+StyleVariable = 0;
+StyleVariableMove = .1;
+StyleVariableTope = 11;
 #endregion
