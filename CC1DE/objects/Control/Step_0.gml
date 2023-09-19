@@ -19,10 +19,11 @@ if (_fx_struct != -1)
 {
     var _params = fx_get_parameters(_fx_struct);
 	StyleVariable = lerp(StyleVariable , StyleVariableTope , StyleVariableMove);
+	StyleVariable = clamp(StyleVariable , 0.1 , StyleVariableTopeFijo);
 	_params.g_CellSize = StyleVariable;
     fx_set_parameters(_fx_struct, _params);
 }
-if (StyleVariable > 10 and StyleVariableTope > 0)
+if (StyleVariable > StyleVariableTopeFijo-1 and StyleVariableTope > 0)
 {
 	scrChangeStyle();
 	StyleVariableTope = 0;

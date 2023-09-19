@@ -1,5 +1,6 @@
 #region Variables
 scrData();
+debug = true;
 MusicActual = sndNo;
 VolumeMusic = .25;
 VolumeSound = .5;
@@ -29,9 +30,10 @@ KeyShot3Pressed = false;
 #endregion
 #region Style
 current_style = 1;
-StyleVariable = 0;
-StyleVariableMove = 0;
-StyleVariableTope = 10;
+StyleVariable = 16;
+StyleVariableMove = 0.1;
+StyleVariableTope = 0;
+StyleVariableTopeFijo = 16;
 #endregion
 
 #endregion
