@@ -30,10 +30,10 @@ KeyShot3Pressed = false;
 #endregion
 #region Style
 current_style = 1;
-StyleVariable = 16;
-StyleVariableMove = 0.1;
+StyleVariable = 0;
+StyleVariableMove = 0.0015;
 StyleVariableTope = 0;
-StyleVariableTopeFijo = 16;
+StyleVariableTopeFijo = 0.032;
 #endregion
 
 #endregion

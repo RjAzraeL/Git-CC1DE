@@ -61,6 +61,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn8","folderPath":"folders/Sprites/Zn/CC1R/Zn8.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CCDE","folderPath":"folders/Sprites/Zn/CCDE.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiles","folderPath":"folders/Tiles.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn2","folderPath":"folders/Rooms/Zn2.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
