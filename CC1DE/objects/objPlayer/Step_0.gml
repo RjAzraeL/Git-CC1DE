@@ -1,3 +1,9 @@
+#region General
+var GravitySignal= sign(Gravity);
+var Delta = parTime.delta_multiplier;
+var DeltaActual= parTime.actual_delta;
+var GravityValue= Gravity*Delta;
+#endregion
 #region Animation
 if (Animated == 0)
 {
@@ -24,7 +30,7 @@ else
 MovHor = DirectionMovement*Speed;
 if (!place_meeting(x,y+1,objSolid))
 {
-	MovVer += Gravity;
+	MovVer += Gravity*Delta;
 }
 
 #region Jump
@@ -35,19 +41,19 @@ if (Control.KeyJumpActive and place_meeting(x,y+1,objSolid) and !place_meeting(x
 #endregion
 
 #region Colission
-if (place_meeting(x + MovHor , y , objSolid))
+if (place_meeting(x + MovHor*Delta , y , objSolid))
 {
-	while (!place_meeting(x + sign(MovHor) , y , objSolid))
+	while (!place_meeting(x + sign(MovHor*Delta) , y , objSolid))
 	{
-		x += sign(MovHor);
+		x += sign(MovHor*Delta);
 	}
 	MovHor = 0;
 }
-if (place_meeting(x , y + MovVer , objSolid))
+if (place_meeting(x , y + MovVer*Delta , objSolid))
 {
-	while (!place_meeting(x , y + sign(MovVer) , objSolid))
+	while (!place_meeting(x , y + sign(MovVer*Delta) , objSolid))
 	{
-		y += sign(MovVer);
+		y += sign(MovVer*Delta);
 	}
 	MovVer = 0;
 }
@@ -56,7 +62,11 @@ if (place_meeting(x , y + MovVer , objSolid))
 #region Energy
 if (Energy < 100)
 {
-	Energy++;
+	Energy += 1*Delta;
+}
+else
+{
+	Energy = 100;
 }
 #endregion
 
@@ -95,8 +105,8 @@ if (MovHor < 0)
 }
 #endregion
 #region Clamp
-x += MovHor;
-y += MovVer;
+x += MovHor*Delta;
+y += MovVer*Delta;
 #endregion
 #region Outside
 if (y >= room_height)

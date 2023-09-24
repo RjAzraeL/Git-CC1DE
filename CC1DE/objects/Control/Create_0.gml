@@ -1,4 +1,5 @@
 #region Variables
+instance_create_depth(0,0,0,parTime);
 scrData();
 debug = true;
 MusicActual = sndNo;
@@ -7,6 +8,8 @@ VolumeSound = .5;
 scrMusic(ostZn1);
 room_goto(rmZn1lv1a);
 scrScaleResolution(853,480,2);
+Value = 1;
+ValueFPS= 60;
 ActualStyle = 0;
 scrChangeStyle();
 instance_create_depth(0,0,0,objCamera);

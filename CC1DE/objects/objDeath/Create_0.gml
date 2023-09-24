@@ -1,6 +1,8 @@
 #region Variable
-direction = random_range(45,135);
-speed = 7;
-gravity = .5;
-gravity_direction = 270;
+MovHor = choose(-1,1);
+MovVer = -5;
+Dir = 1;
+Gravity = .4;
+image_blend = c_white;
+Value = 255;
 #endregion
