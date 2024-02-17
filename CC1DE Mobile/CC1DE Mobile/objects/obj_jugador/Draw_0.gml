@@ -1,3 +1,3 @@
 #region dibujar
-scr_dibujar(spr_pollo_chica_ccr, spr_pollo_chica, 32, 32, obj_camara.linea_x);
+scr_dibujar(spr_ccr, spr_cc1, 32, 32, obj_camara.linea_x, x, y);
 #endregion

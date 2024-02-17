@@ -26,7 +26,7 @@ else
 		y += (obj_jugador.y - y) * velocidad;
 		if (obj_jugador.movimiento_horizontal == 0 and obj_jugador.movimiento_vertical == 0)
 		{
-			tiempo_ocio++;
+			//tiempo_ocio++;
 		}
 		else
 		{

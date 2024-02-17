@@ -1,4 +1,5 @@
 #region variable
+aumento = 10;
 poder = 0;
 bando = 0;
 destruible = true;

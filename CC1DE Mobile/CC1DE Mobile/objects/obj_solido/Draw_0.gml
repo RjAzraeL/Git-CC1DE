@@ -1,5 +1,5 @@
 #region dibujar
-/*
+
 for (var i = 0; i < image_xscale; i++)
 {
 	for (var j = 0; j < image_yscale; j++)
@@ -21,7 +21,7 @@ for (var i = 0; i < image_xscale; i++)
 		}
 	}
 }
-*/
+/*
 for (var i = 0; i < image_xscale; i++)
 {
 	for (var j = 0; j < image_yscale; j++)
@@ -72,5 +72,5 @@ for (var i = 0; i < image_xscale; i++)
 		}
 	}
 }
-
+*/
 #endregion

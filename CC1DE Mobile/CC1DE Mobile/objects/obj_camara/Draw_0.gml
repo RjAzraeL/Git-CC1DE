@@ -1,5 +1,6 @@
 #region dibujar
 draw_line(linea_x,0,linea_x,room_height);
+/*
 with (obj_solido)
 {
 	for (var i = 0; i < image_xscale; i++)
@@ -27,4 +28,5 @@ with (obj_solido)
 		}
 	}
 }
+*/
 #endregion

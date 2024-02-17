@@ -1,5 +1,5 @@
 #region ángulo
-angulo_real += 10;
+angulo_real += aumento;
 #endregion
 #region escala
 escala_x_real = lerp(escala_x_real, escala_x, .25);
