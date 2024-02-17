@@ -1,4 +1,4 @@
-function scr_dibujar(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _index = 0)
+function scr_dibujar(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _index = image_index)
 {
 	var xx = _anchura;
 	var yy = _altura;

@@ -13,8 +13,9 @@ for (var i = 0; i < image_xscale; i++)
 		//draw_sprite_general(spr_bloque_remasterizacion, _y_extra , 0, 0, 32, 35 , _x-16, _y-19, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 		//draw_sprite_general(spr_bloque_original, 0, 0, 0, 32, clamp(obj_camara.linea_y-_y+16, 0, 32) , _x-16, _y-16, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 		
-		draw_sprite_general(spr_ccr, 0 , 0, 0, 32, 35 , _x-16, _y-19+_y_extra, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
-		draw_sprite_general(spr_cc1, 0, 0, 0, clamp(obj_camara.linea_x-_x+16, 0, 32), 32 , _x-16, _y-16, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+		//draw_sprite_general(spr_ccr, 0 , 0, 0, 32, 35 , _x-16, _y-19+_y_extra, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+		//draw_sprite_general(spr_cc1, 0, 0, 0, clamp(obj_camara.linea_x-_x+16, 0, 32), 32 , _x-16, _y-16, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+		scr_dibujar(spr_ccr, spr_cc1, 32, 35, obj_camara.linea_x, _x, _y, 0);
 		if (obj_camara.linea_y > _y)
 		{
 			var _offset = 3;
