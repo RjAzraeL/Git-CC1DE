@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pollo_jefe_campo",
-    "path": "sprites/spr_pollo_jefe_campo/spr_pollo_jefe_campo.yy",
+    "name": "sprCC1zn1Boss",
+    "path": "sprites/sprCC1zn1Boss/sprCC1zn1Boss.yy",
   },
   "spriteMaskId": null,
   "visible": true,

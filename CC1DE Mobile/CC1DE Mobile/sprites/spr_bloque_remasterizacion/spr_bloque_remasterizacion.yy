@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "ccr",
-    "path": "folders/Sprites/juego/furnis/campo/ccr.yy",
+    "name": "*Obsolet*",
+    "path": "folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

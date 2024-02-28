@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_poder_shuriken",
-    "path": "sprites/spr_poder_shuriken/spr_poder_shuriken.yy",
+    "name": "sprCC1atkShurikenGrass",
+    "path": "sprites/sprCC1atkShurikenGrass/sprCC1atkShurikenGrass.yy",
   },
   "spriteMaskId": {
     "name": "spr_poder_mascara",

@@ -1,6 +1,6 @@
 #region variable
-sprite_pollo = spr_pollo_chica;
-sprite_poder = spr_poder_huevo;
+sprite_pollo = sprCC1skinPollier;
+sprite_poder = sprCC1atkEgg;
 velocidad = .1;
 zoom = .5;
 zoom_objetivo = .5;

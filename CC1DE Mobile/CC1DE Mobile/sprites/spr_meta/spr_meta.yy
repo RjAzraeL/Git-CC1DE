@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "furnis",
-    "path": "folders/Sprites/juego/furnis.yy",
+    "name": "*Obsolet*",
+    "path": "folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

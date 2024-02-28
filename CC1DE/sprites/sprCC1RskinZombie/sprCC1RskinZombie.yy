@@ -14,6 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bfc4b8d-e996-4eb9-82d2-9875c95f9e0a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"42dd04de-29d5-425a-a1d2-300594b3c3b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c753495-8b4e-4ae2-9b5b-090523bc07ec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a80f5fa-2587-4a14-b9ad-5d6b47f2b026",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,7 +46,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +58,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7bfc4b8d-e996-4eb9-82d2-9875c95f9e0a","path":"sprites/sprCC1RskinZombie/sprCC1RskinZombie.yy",},},},"Disabled":false,"id":"588685ee-fd77-4d85-ba00-34977cc6716b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"42dd04de-29d5-425a-a1d2-300594b3c3b5","path":"sprites/sprCC1RskinZombie/sprCC1RskinZombie.yy",},},},"Disabled":false,"id":"9f794b1e-4f49-4c2d-b88d-e4d3bc40fd12","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c753495-8b4e-4ae2-9b5b-090523bc07ec","path":"sprites/sprCC1RskinZombie/sprCC1RskinZombie.yy",},},},"Disabled":false,"id":"2d476e3f-1a60-4e6c-8726-c98b61c68218","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5a80f5fa-2587-4a14-b9ad-5d6b47f2b026","path":"sprites/sprCC1RskinZombie/sprCC1RskinZombie.yy",},},},"Disabled":false,"id":"63f43f5f-ef1d-4cdd-aa3a-c40203130564","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

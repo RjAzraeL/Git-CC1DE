@@ -3,13 +3,14 @@ function scr_dibujar(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _inde
 	var xx = _anchura;
 	var yy = _altura;
 	var xx2 = xx/2;
+	var yy2 = yy/2;
 	var sprccr = _spr1;
 	var sprcc1 = _spr2;
-	var _sx = abs(escala_x_real);
+	var _sx = escala_x_real;
 	var _sy = escala_y_real;
 	var _x = clamp(_linea_x - __x +xx2, 0, xx);
-	var _x1 = __x + lengthdir_x(_x*_sx, angulo_real) - lengthdir_x(xx2*_sx, angulo_real) - lengthdir_x(xx2*_sy, angulo_real-90);
-	var _y1 = __y + lengthdir_y(_x*_sx, angulo_real) - lengthdir_y(xx2*_sx, angulo_real) - lengthdir_y(xx2*_sy, angulo_real-90);
+	var _x1 = __x + lengthdir_x(_x*_sx, angulo_real) - lengthdir_x(xx2*_sx, angulo_real) - lengthdir_x(yy2*_sy, angulo_real-90);
+	var _y1 = __y + lengthdir_y(_x*_sx, angulo_real) - lengthdir_y(xx2*_sx, angulo_real) - lengthdir_y(yy2*_sy, angulo_real-90);
 	var _left = _x;
 	var _top = 0;
 	var _width = xx - _x;

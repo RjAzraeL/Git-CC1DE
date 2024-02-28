@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_terreno_generico",
-    "path": "sprites/spr_terreno_generico/spr_terreno_generico.yy",
+    "name": "sprSolid",
+    "path": "sprites/sprSolid/sprSolid.yy",
   },
   "spriteMaskId": null,
   "visible": true,

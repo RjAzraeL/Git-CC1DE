@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "furnis",
-    "path": "folders/Sprites/juego/furnis.yy",
+    "name": "Attacks",
+    "path": "folders/Sprites/Attacks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

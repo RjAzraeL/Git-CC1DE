@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "ccr",
-    "path": "folders/Sprites/juego/poder/ccr.yy",
+    "name": "*Obsolet*",
+    "path": "folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

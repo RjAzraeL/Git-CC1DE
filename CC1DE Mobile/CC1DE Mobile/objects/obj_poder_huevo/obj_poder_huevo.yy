@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_poder_huevo",
-    "path": "sprites/spr_poder_huevo/spr_poder_huevo.yy",
+    "name": "sprCC1atkEgg",
+    "path": "sprites/sprCC1atkEgg/sprCC1atkEgg.yy",
   },
   "spriteMaskId": {
     "name": "spr_poder_mascara",

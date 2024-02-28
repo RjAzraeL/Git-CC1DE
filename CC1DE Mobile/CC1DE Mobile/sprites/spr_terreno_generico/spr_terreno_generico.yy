@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "campo",
-    "path": "folders/Sprites/juego/furnis/campo.yy",
+    "name": "*Obsolet*",
+    "path": "folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

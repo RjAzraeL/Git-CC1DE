@@ -2,8 +2,8 @@
 vida = 1;
 image_speed = 0;
 image_index = 0;
-spr_cc1 = spr_pollo_cespipollo;
-spr_ccr = spr_pollo_cespipollo_ccr;
+spr_cc1 = sprCC1zn1Enemie2;
+spr_ccr = sprCCRzn1Enemie2;
 anchura_real = sprite_width;
 altura_real = sprite_height;
 ultima_direccion = 0;

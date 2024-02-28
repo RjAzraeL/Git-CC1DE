@@ -42,12 +42,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pollo_chica",
-    "path": "sprites/spr_pollo_chica/spr_pollo_chica.yy",
+    "name": "sprCC1skinPollier",
+    "path": "sprites/sprCC1skinPollier/sprCC1skinPollier.yy",
   },
   "spriteMaskId": {
-    "name": "spr_pollo_mascara",
-    "path": "sprites/spr_pollo_mascara/spr_pollo_mascara.yy",
+    "name": "sprCCRmask",
+    "path": "sprites/sprCCRmask/sprCCRmask.yy",
   },
   "visible": true,
 }

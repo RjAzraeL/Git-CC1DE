@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pollo_cespipollo",
-    "path": "sprites/spr_pollo_cespipollo/spr_pollo_cespipollo.yy",
+    "name": "sprCC1zn1Enemie2",
+    "path": "sprites/sprCC1zn1Enemie2/sprCC1zn1Enemie2.yy",
   },
   "spriteMaskId": {
     "name": "spr_pollo_mascara",

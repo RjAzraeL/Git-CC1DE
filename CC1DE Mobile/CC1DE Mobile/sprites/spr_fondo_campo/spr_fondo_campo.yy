@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "fondo",
-    "path": "folders/Sprites/juego/fondo.yy",
+    "name": "*Obsolet*",
+    "path": "folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

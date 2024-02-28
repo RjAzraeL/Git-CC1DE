@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_meta",
-    "path": "sprites/spr_meta/spr_meta.yy",
+    "name": "sprCC1resExit",
+    "path": "sprites/sprCC1resExit/sprCC1resExit.yy",
   },
   "spriteMaskId": null,
   "visible": true,

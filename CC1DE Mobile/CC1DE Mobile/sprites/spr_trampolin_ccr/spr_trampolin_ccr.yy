@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "ccr",
-    "path": "folders/Sprites/juego/furnis/ccr.yy",
+    "name": "Attacks",
+    "path": "folders/Sprites/Attacks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

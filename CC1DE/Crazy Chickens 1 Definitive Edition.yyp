@@ -61,14 +61,14 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn7","folderPath":"folders/Sprites/Zn/CC1R/Zn7.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn8","folderPath":"folders/Sprites/Zn/CC1R/Zn8.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CCDE","folderPath":"folders/Sprites/Zn/CCDE.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiles","folderPath":"folders/Tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zn1","folderPath":"folders/Sprites/Zn/CCDE/Zn1.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiles","folderPath":"folders/Tiles.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"sprCC1zn1Background","path":"sprites/sprCC1zn1Background/sprCC1zn1Background.yy",},},

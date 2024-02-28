@@ -6,16 +6,16 @@ for (var i = 0; i < image_xscale; i++)
 	{
 		var _x = x+16+32*i;
 		var _y = y+16+32*j;
-		var _sprite = spr_bloque_original;
+		var _sprite = sprCC1zn1Block;
 		var _offset = 0;
-		var _y_extra = (collision_rectangle(_x-8, _y-32, _x+8, _y-16, par_pollo, true, false)) ? 1: 0;
+		var _y_extra = (collision_rectangle(_x-8, _y-32, _x+8, _y-16, par_pollo, true, false)) ? 0: 0;
 		
 		//draw_sprite_general(spr_bloque_remasterizacion, _y_extra , 0, 0, 32, 35 , _x-16, _y-19, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 		//draw_sprite_general(spr_bloque_original, 0, 0, 0, 32, clamp(obj_camara.linea_y-_y+16, 0, 32) , _x-16, _y-16, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 		
 		//draw_sprite_general(spr_ccr, 0 , 0, 0, 32, 35 , _x-16, _y-19+_y_extra, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 		//draw_sprite_general(spr_cc1, 0, 0, 0, clamp(obj_camara.linea_x-_x+16, 0, 32), 32 , _x-16, _y-16, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
-		scr_dibujar(spr_ccr, spr_cc1, 32, 35, obj_camara.linea_x, _x, _y, 0);
+		scr_dibujar(spr_ccr, spr_cc1, 32, 32, obj_camara.linea_x, _x, _y, 0);
 		if (obj_camara.linea_y > _y)
 		{
 			var _offset = 3;

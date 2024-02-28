@@ -43,8 +43,8 @@
     {"name":"Zn7","order":6,"path":"folders/Sprites/Zn/CC1R/Zn7.yy",},
     {"name":"Zn8","order":7,"path":"folders/Sprites/Zn/CC1R/Zn8.yy",},
     {"name":"CCDE","order":3,"path":"folders/Sprites/Zn/CCDE.yy",},
-    {"name":"Tiles","order":1,"path":"folders/Tiles.yy",},
     {"name":"Zn1","order":1,"path":"folders/Sprites/Zn/CCDE/Zn1.yy",},
+    {"name":"Tiles","order":1,"path":"folders/Tiles.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprCC1RskinPollisor","order":5,"path":"sprites/sprCC1RskinPollisor/sprCC1RskinPollisor.yy",},
