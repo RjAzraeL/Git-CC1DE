@@ -120,6 +120,7 @@ scr_estado();
 #endregion
 #region sprite
 scr_sprite();
+scr_sprite_indice();
 #endregion
 #region meta
 if (scr_existe(obj_meta) and !nivel_ganado)

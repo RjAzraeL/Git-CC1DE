@@ -46,13 +46,30 @@ function scr_estado()
 function scr_sprite()
 {
 	if (movimiento_horizontal > 0)
-	{
-		image_index = 0;
+	{		
 		ultima_direccion = sign(movimiento_horizontal);
 	}
 	if (movimiento_horizontal < 0)
 	{
-		image_index = 1;
 		ultima_direccion = sign(movimiento_horizontal);
+	}
+}
+
+function scr_sprite_indice()
+{
+	parpadeo++;
+	var _fase = 0;
+	if (parpadeo >= parpadeo_total)
+	{
+		parpadeo = irandom_range(parpadeo_total, round(parpadeo_total/2));
+		_fase = 1;
+	}
+	if (movimiento_horizontal > 0)
+	{		
+		image_index = indice_der + _fase;
+	}
+	if (movimiento_horizontal < 0)
+	{
+		image_index = indice_izq + _fase;
 	}
 }
