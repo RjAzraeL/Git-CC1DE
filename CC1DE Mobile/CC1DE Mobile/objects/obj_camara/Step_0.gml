@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_shift) and !cambio_actual)
 }
 if (cambio_valor < cambio_total and cambio_actual)
 {
-	cambio_valor += 2;
+	cambio_valor += 10;
 	linea_x = scr_x() + cambio_valor;
 	if (cambio_valor >= cambio_total)
 	{
