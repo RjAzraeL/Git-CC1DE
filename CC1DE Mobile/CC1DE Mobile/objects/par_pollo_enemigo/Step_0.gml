@@ -31,7 +31,7 @@ if (poder_disparo)
 	{
 		poder_enfriamiento = poder_enfriamiento_total;
 		var _poder = instance_create_depth(x, y, depth, poder_disparo_objeto);
-		var _signo = (image_index == 0) ? 1 : -1;
+		var _signo = ultima_direccion;
 		_poder.movimiento_horizontal = poder_velocidad*_signo;
 		_poder.bando = bando;
 		if (poder_disparo_doble)

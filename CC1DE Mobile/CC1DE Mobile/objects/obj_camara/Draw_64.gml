@@ -2,6 +2,10 @@
 for (var i = 0; i < control.vida; i++)
 {
 	draw_sprite(sprite_pollo, 0, 24+32*i, 24+sin(valor_seno+i));
+	/*
+	var _xx = obj_camara.linea_x - camera_get_view_x(view_camera[0]);
+	scr_dibujar(sprccr, sprcc1, 64, 64, _xx , 24+32*i,  24+sin(valor_seno+i));
+	*/
 }
 var _carga = 0;
 var _blend = c_gray;

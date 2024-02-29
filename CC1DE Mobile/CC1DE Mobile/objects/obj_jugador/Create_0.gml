@@ -24,7 +24,7 @@ escala_y_real = 0;
 angulo = 0;
 angulo_real = 0;
 spr_cc1 = sprCC1skinPollier;
-spr_ccr = sprCCRskinPollier;
+spr_cc2 = sprCCRskinPollier;
 #region controles
 joystick = 
 {

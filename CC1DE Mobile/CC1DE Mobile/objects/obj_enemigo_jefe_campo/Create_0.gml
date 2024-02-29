@@ -7,7 +7,7 @@ poder_disparo_doble = true;
 poder_enfriamiento_total = 120;
 poder_velocidad = 7;
 spr_cc1 = sprCC1zn1Boss;
-spr_ccr = sprCCRzn1Boss;
+spr_cc2 = sprCCRzn1Boss;
 anchura_real = sprite_width;
 altura_real = sprite_height;
 #endregion

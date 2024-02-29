@@ -1,6 +1,15 @@
 #region variable
+actual = 0;
+sprccr = sprCCRskinPollier;
+sprcc1 = sprCC1skinPollier;
 sprite_pollo = sprCC1skinPollier;
 sprite_poder = sprCC1atkEgg;
+escala_x_real = 1;
+escala_y_real = 1;
+angulo_real = 1;
+cambio_valor = 0;
+cambio_total = 427;
+cambio_actual = false;
 velocidad = .1;
 zoom = .5;
 zoom_objetivo = .5;

@@ -6,6 +6,6 @@ function scr_muerto(_x, _y, _vx, _vy, _sprite, _depth, _index, _cc1, _ccr)
 	_muerto.sprite_index = _sprite;
 	_muerto.image_index = _index;
 	_muerto.spr_cc1 = _cc1;
-	_muerto.spr_ccr = _ccr;
+	_muerto.spr_cc2 = _ccr;
 	
 }

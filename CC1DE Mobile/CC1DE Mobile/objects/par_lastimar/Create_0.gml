@@ -1,4 +1,5 @@
 #region variable
+event_inherited();
 aumento = 10;
 poder = 0;
 bando = 0;
@@ -12,5 +13,5 @@ escala_y_real = 0;
 angulo = 0;
 angulo_real = 0;
 spr_cc1 = sprCC1atkEgg;
-spr_ccr = sprCCRatkEgg;
+spr_cc2 = sprCCRatkEgg;
 #endregion

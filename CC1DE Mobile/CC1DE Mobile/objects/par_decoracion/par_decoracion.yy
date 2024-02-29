@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "par_pollo",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "par_decoracion",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "padres",
-    "path": "folders/Objects/padres.yy",
+    "name": "Home",
+    "path": "folders/Objects/Home.yy",
   },
   "parentObjectId": {
     "name": "par_entidad",

@@ -100,8 +100,7 @@ else if (tecla_disparo_activa and !nivel_ganado)
 {
 	poder_enfriamiento = poder_enfriamiento_total;
 	var _poder = instance_create_depth(x, y, depth, obj_poder_huevo);
-	var _signo = (image_index == 0) ? 1 : -1;
-	_poder.movimiento_horizontal = poder_velocidad*_signo;
+	_poder.movimiento_horizontal = poder_velocidad*ultima_direccion;
 	_poder.bando = bando;
 	escala_y_real = .75;
 	escala_x_real = 1.25*ultima_direccion;

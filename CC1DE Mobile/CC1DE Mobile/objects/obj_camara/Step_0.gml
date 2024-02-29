@@ -1,6 +1,26 @@
 #region linea
-linea_y = mouse_y;
-linea_x = mouse_x;
+if (keyboard_check_pressed(vk_shift) and !cambio_actual)
+{
+	cambio_actual = true;
+}
+if (cambio_valor < cambio_total and cambio_actual)
+{
+	cambio_valor += 2;
+	linea_x = scr_x() + cambio_valor;
+	if (cambio_valor >= cambio_total)
+	{
+		
+		linea_x = 0;
+		with (par_entidad)
+		{
+			var _aux = spr_cc1;
+			spr_cc1 = spr_cc2;
+			spr_cc2 = _aux;
+		}
+		cambio_actual = false;
+		cambio_valor = 0;
+	}
+}
 #endregion
 #region seno
 valor_seno += .2;
