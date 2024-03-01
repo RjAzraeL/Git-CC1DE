@@ -38,6 +38,7 @@
     {"name":"Resource","order":6,"path":"folders/Sprites/Resource.yy",},
     {"name":"Skins","order":7,"path":"folders/Sprites/Skins.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"data","order":5,"path":"folders/Scripts/data.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprCC1zn8Enemie1","order":3,"path":"sprites/sprCC1zn8Enemie1/sprCC1zn8Enemie1.yy",},

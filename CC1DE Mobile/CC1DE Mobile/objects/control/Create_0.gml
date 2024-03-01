@@ -11,4 +11,5 @@ window_set_fullscreen(true);
 #macro indice_der_parpadeo 1
 #macro indice_izq 2
 #macro indice_izq_parpadeo 3
+#macro sin_fondo -4
 #endregion
