@@ -10,12 +10,17 @@ if (cambio_valor < cambio_total and cambio_actual)
 	if (cambio_valor >= cambio_total)
 	{
 		
-		linea_x = 0;
+		linea_x = -1;
 		with (par_entidad)
 		{
 			var _aux = spr_cc1;
 			spr_cc1 = spr_cc2;
 			spr_cc2 = _aux;
+		}
+		control.estilo_actual++;
+		if (control.estilo_actual > 1)
+		{
+			control.estilo_actual = 0;
 		}
 		cambio_actual = false;
 		cambio_valor = 0;

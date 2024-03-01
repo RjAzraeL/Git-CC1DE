@@ -1,4 +1,5 @@
 #region variables
+estilo_actual = 0;
 vida = 5;
 resolucion_ancho = 854;
 resolucion_alto = 480;

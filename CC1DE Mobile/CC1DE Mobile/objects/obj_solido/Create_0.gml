@@ -1,4 +1,5 @@
 #region variable
+event_inherited();
 valor = irandom(3);
 destruible = false;
 destruir = false;

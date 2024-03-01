@@ -227,6 +227,7 @@
     {"name":"sprCCRskinGallo","order":48,"path":"sprites/sprCCRskinGallo/sprCCRskinGallo.yy",},
     {"name":"rm_campo_3","order":2,"path":"rooms/rm_campo_3/rm_campo_3.yy",},
     {"name":"spr_poder_mascara","order":14,"path":"sprites/spr_poder_mascara/spr_poder_mascara.yy",},
+    {"name":"par_fondo","order":8,"path":"objects/par_fondo/par_fondo.yy",},
     {"name":"sprCC1skinAlien","order":1,"path":"sprites/sprCC1skinAlien/sprCC1skinAlien.yy",},
     {"name":"sprCC1skinGrassy","order":94,"path":"sprites/sprCC1skinGrassy/sprCC1skinGrassy.yy",},
     {"name":"spr_meta_ccr","order":25,"path":"sprites/spr_meta_ccr/spr_meta_ccr.yy",},

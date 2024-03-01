@@ -1,5 +1,14 @@
 #region variable
-actual = 0;
+actual = control.estilo_actual;
+if (actual != 0)
+{
+	with (par_entidad)
+	{
+		var _aux = spr_cc1;
+		spr_cc1 = spr_cc2;
+		spr_cc2 = _aux;
+	}
+}
 sprccr = sprCCRskinPollier;
 sprcc1 = sprCC1skinPollier;
 sprite_pollo = sprCC1skinPollier;
@@ -20,6 +29,6 @@ golpeado = 0;
 depth = 150;
 centro_x = room_width/2;
 centro_y = room_height/2;
-linea_y = 0;
+linea_y = -1;
 linea_x = 0;
 #endregion

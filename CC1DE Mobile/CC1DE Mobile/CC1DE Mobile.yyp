@@ -262,6 +262,7 @@
     {"id":{"name":"rm_campo_3","path":"rooms/rm_campo_3/rm_campo_3.yy",},},
     {"id":{"name":"spr_poder_mascara","path":"sprites/spr_poder_mascara/spr_poder_mascara.yy",},},
     {"id":{"name":"objExitFactory","path":"objects/objExitFactory/objExitFactory.yy",},},
+    {"id":{"name":"par_fondo","path":"objects/par_fondo/par_fondo.yy",},},
     {"id":{"name":"sprCC1skinAlien","path":"sprites/sprCC1skinAlien/sprCC1skinAlien.yy",},},
     {"id":{"name":"sprCC1skinGrassy","path":"sprites/sprCC1skinGrassy/sprCC1skinGrassy.yy",},},
     {"id":{"name":"spr_meta_ccr","path":"sprites/spr_meta_ccr/spr_meta_ccr.yy",},},

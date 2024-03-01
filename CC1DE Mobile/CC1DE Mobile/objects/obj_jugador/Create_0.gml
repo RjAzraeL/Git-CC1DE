@@ -25,6 +25,12 @@ angulo = 0;
 angulo_real = 0;
 spr_cc1 = sprCC1skinPollier;
 spr_cc2 = sprCCRskinPollier;
+if (control.estilo_actual!= 0)
+{
+	var _aux = spr_cc1;
+	spr_cc1 = spr_cc2;
+	spr_cc2 = _aux;
+}
 #region controles
 joystick = 
 {
