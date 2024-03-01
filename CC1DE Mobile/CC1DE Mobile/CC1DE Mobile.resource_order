@@ -17,6 +17,7 @@
     {"name":"Zn8 Nightmare","order":8,"path":"folders/Rooms/Zn8 Nightmare.yy",},
     {"name":"Znf Factory","order":9,"path":"folders/Rooms/Znf Factory.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"data","order":5,"path":"folders/Scripts/data.yy",},
     {"name":"entidad","order":3,"path":"folders/Scripts/entidad.yy",},
     {"name":"genérico","order":1,"path":"folders/Scripts/genérico.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
@@ -38,7 +39,6 @@
     {"name":"Resource","order":6,"path":"folders/Sprites/Resource.yy",},
     {"name":"Skins","order":7,"path":"folders/Sprites/Skins.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
-    {"name":"data","order":5,"path":"folders/Scripts/data.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprCC1zn8Enemie1","order":3,"path":"sprites/sprCC1zn8Enemie1/sprCC1zn8Enemie1.yy",},

@@ -1,12 +1,12 @@
 function scr_data()
 {
-	
+	scr_data_zona();
 }
 
 function scr_data_zona()
 {
 	data_zona = ds_list_create();
-	/*00*/ scr_data_crear_zona("Campo" , "Campo Locallo", c_green, scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo),  );
+	/*00*/ scr_data_crear_zona("Campo" , "Campo Locallo", c_green, scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCCRzn0Background,sin_fondo,sin_fondo,sin_fondo), scr_crear_lista(sprCC1zn1Enemie1, sprCCRzn1Enemie1, sprCC1zn1Enemie1, sprCC1zn1Enemie1), scr_crear_lista(sprCC1zn1Enemie2, sprCCRzn1Enemie2, sprCC1zn1Enemie2, sprCC1zn1Enemie2), scr_crear_lista(sprCC1zn1Enemie1, sprCCRzn1Enemie1, sprCC1zn1Enemie1, sprCC1zn1Enemie1), scr_crear_lista(sprCC1zn1Boss, sprCCRzn1Boss, sprCC1zn1Boss, sprCC1zn1Boss) );
 }
 function scr_data_crear_zona( nombre, descripcion, color, fondo1, fondo2, fondo3, fondo4, enemigo1, enemigo2, enemigo3, jefe)
 {

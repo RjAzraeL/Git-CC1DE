@@ -1,4 +1,5 @@
 #region variables
+scr_data();
 estilo_actual = 0;
 vida = 5;
 resolucion_ancho = 854;
