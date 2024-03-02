@@ -10,4 +10,5 @@ spr_cc1 = sprCC1zn1Boss;
 spr_cc2 = sprCCRzn1Boss;
 anchura_real = sprite_width;
 altura_real = sprite_height;
+scr_estilo_jefe();
 #endregion

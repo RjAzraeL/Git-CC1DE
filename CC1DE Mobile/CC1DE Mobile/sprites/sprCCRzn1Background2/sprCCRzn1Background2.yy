@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sprCCRzn1Background2",
   "bbox_bottom": 267,
-  "bbox_left": 0,
-  "bbox_right": 628,
+  "bbox_left": 5,
+  "bbox_right": 633,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 268,
+  "height": 480,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"732ffc92-f55a-428a-9421-55591fc2be79","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 629,
+  "width": 640,
 }

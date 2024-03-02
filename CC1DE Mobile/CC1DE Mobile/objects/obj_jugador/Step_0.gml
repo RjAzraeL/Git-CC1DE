@@ -7,6 +7,7 @@ var tecla_salto_activa = keyboard_check(tecla_salto);
 var tecla_salto_presionada = keyboard_check_pressed(tecla_salto);
 var tecla_disparo_activa = keyboard_check(tecla_disparo);
 var tecla_disparo_presionada = keyboard_check_pressed(tecla_disparo);
+var tecla_estilo_activa = keyboard_check(tecla_estilo);
 #endregion
 #region movimiento
 #region gravedad
@@ -142,5 +143,11 @@ if (control.vida <= 0)
 {
 	instance_destroy();
 	game_restart();
+}
+#endregion
+#region estilo
+if (tecla_estilo_activa and !obj_camara.cambio_actual)
+{
+	obj_camara.cambio_actual = true;
 }
 #endregion

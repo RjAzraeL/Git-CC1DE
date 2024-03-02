@@ -1,5 +1,9 @@
 #region dibujar
 draw_line(linea_x,0,linea_x,room_height);
+for (var i = 0; i < 40; i++)
+{
+	draw_sprite_ext(spr_rayo_estilo, i+index_rayo, linea_x, i*16, 1, 1, 0, c_white, 1);
+}
 /*
 with (obj_solido)
 {

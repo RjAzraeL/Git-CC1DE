@@ -25,8 +25,14 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 }
 
 
-function scr_dibujar(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _index = image_index)
+function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index)
 {
+	if (control.estilo_actual == 0)
+	{
+		var _aux = _spr2;
+		_spr2 = _spr1;
+		_spr1 = _aux;
+	}
 	#region tamaño
 	var _w1 = sprite_get_width(_spr1);
 	var _h1 = sprite_get_height(_spr1);

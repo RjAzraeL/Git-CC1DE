@@ -1,8 +1,4 @@
 #region linea
-if (keyboard_check_pressed(vk_shift) and !cambio_actual)
-{
-	cambio_actual = true;
-}
 if (cambio_valor < cambio_total and cambio_actual)
 {
 	cambio_valor += 10;
@@ -10,13 +6,14 @@ if (cambio_valor < cambio_total and cambio_actual)
 	if (cambio_valor >= cambio_total)
 	{
 		
-		linea_x = -1;
+		linea_x = -64;
 		with (par_entidad)
 		{
 			var _aux = spr_cc1;
-			spr_cc1 = spr_cc2;
-			spr_cc2 = _aux;
+			//spr_cc1 = spr_cc2;
+			//spr_cc2 = _aux;
 		}
+		control.estilo_viejo = control.estilo_actual;
 		control.estilo_actual++;
 		if (control.estilo_actual > 1)
 		{
@@ -25,6 +22,13 @@ if (cambio_valor < cambio_total and cambio_actual)
 		cambio_actual = false;
 		cambio_valor = 0;
 	}
+}
+#endregion
+#region index
+index_rayo += .25;
+if (index_rayo >= 2)
+{
+	index_rayo = 0;
 }
 #endregion
 #region seno
@@ -44,7 +48,7 @@ if (scr_existe(par_pollo_jefe))
 }
 else
 {
-	zoom_objetivo = .5;
+	zoom_objetivo = 1;
 	if (instance_exists(obj_jugador))
 	{
 		x += (obj_jugador.x - x) * velocidad;

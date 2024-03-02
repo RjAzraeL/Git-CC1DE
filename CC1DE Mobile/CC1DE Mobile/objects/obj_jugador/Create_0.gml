@@ -25,12 +25,6 @@ angulo = 0;
 angulo_real = 0;
 spr_cc1 = sprCC1skinPollier;
 spr_cc2 = sprCCRskinPollier;
-if (control.estilo_actual!= 0)
-{
-	var _aux = spr_cc1;
-	spr_cc1 = spr_cc2;
-	spr_cc2 = _aux;
-}
 #region controles
 joystick = 
 {
@@ -56,9 +50,11 @@ tecla_izquierda = vk_left;
 tecla_derecha = vk_right;
 tecla_salto = vk_up;
 tecla_disparo = vk_space;
+tecla_estilo = vk_shift;
 
 virtual_key_add(752-64,384-64,128,128, tecla_salto);
 virtual_key_add(592-64,384-64,128,128, tecla_disparo);
+virtual_key_add(752-64,84-64,128,128, tecla_estilo);
 #endregion
 
 #endregion

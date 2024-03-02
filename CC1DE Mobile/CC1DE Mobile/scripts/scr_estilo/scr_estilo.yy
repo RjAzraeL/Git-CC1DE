@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_dibujar",
+  "name": "scr_estilo",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
