@@ -4,6 +4,13 @@ estilo_viejo = control.estilo_viejo;
 color_fondo_actual = color_fondo[estilo];
 color_fondo_viejo = color_fondo[estilo_viejo];
 
+if (control.estilo_actual != 0)
+{
+	var _aux = color_fondo_actual;
+	color_fondo_actual = color_fondo_viejo;
+	color_fondo_viejo = _aux;
+}
+
 #region color actual
 draw_set_color(color_fondo_actual);
 draw_rectangle(obj_camara.linea_x, 0, room_width, room_height, false);
@@ -15,6 +22,12 @@ for (var i = 0; i < 4; i++)
 {
 	fondo_actual[i] = ds_list_find_value(fondo[estilo_viejo], i);
 	fondo_viejo[i] = ds_list_find_value(fondo[estilo], i);
+	if (control.estilo_actual != 0)
+	{
+		var _aux = fondo_actual[i];
+		fondo_actual[i] = fondo_viejo[i];
+		fondo_viejo[i] = _aux;
+	}
 	fondo2 = sprAtkMask;
 	if (fondo_viejo[i] != sin_fondo)
 	{

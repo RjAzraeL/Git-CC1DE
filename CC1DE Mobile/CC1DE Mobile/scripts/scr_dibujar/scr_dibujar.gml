@@ -27,7 +27,7 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 
 function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index)
 {
-	if (control.estilo_actual == 0)
+	if (control.estilo_actual != 0)
 	{
 		var _aux = _spr2;
 		_spr2 = _spr1;

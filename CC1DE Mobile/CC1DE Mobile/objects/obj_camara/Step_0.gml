@@ -7,12 +7,6 @@ if (cambio_valor < cambio_total and cambio_actual)
 	{
 		
 		linea_x = -64;
-		with (par_entidad)
-		{
-			var _aux = spr_cc1;
-			//spr_cc1 = spr_cc2;
-			//spr_cc2 = _aux;
-		}
 		control.estilo_viejo = control.estilo_actual;
 		control.estilo_actual++;
 		if (control.estilo_actual > 1)
