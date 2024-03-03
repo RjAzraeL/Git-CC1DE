@@ -19,6 +19,7 @@
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"data","order":5,"path":"folders/Scripts/data.yy",},
     {"name":"entidad","order":3,"path":"folders/Scripts/entidad.yy",},
+    {"name":"estilo","order":6,"path":"folders/Scripts/estilo.yy",},
     {"name":"genérico","order":1,"path":"folders/Scripts/genérico.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
@@ -39,7 +40,6 @@
     {"name":"Resource","order":6,"path":"folders/Sprites/Resource.yy",},
     {"name":"Skins","order":7,"path":"folders/Sprites/Skins.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
-    {"name":"estilo","order":6,"path":"folders/Scripts/estilo.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprCC1zn8Enemie1","order":3,"path":"sprites/sprCC1zn8Enemie1/sprCC1zn8Enemie1.yy",},

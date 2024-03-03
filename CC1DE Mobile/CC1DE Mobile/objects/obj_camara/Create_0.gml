@@ -22,8 +22,8 @@ cambio_total = 854;
 cambio_actual = false;
 index_rayo = 0;
 velocidad = .1;
-zoom = .5;
-zoom_objetivo = .5;
+zoom = 1;
+zoom_objetivo = 1;
 tiempo_ocio = 0;
 valor_seno = 0;
 valor_seno_real = 0;
@@ -33,4 +33,44 @@ centro_x = room_width/2;
 centro_y = room_height/2;
 linea_y = 0;
 linea_x = -64;
+#endregion
+#region elegir zona
+switch (room)
+{
+	case(rmZn0Home):
+	{
+		control.zona_actual = 0;
+		break;
+	}
+	case(rmZn1Lv1a):
+	{
+		control.zona_actual = 1;
+		break;
+	}
+	case(rmZn2Lv1a):
+	{
+		control.zona_actual = 2;
+		break;
+	}
+}
+#endregion
+#region crear capa de fondo
+var capa_fondo = layer_create(550, "fondo");
+instance_create_layer(0, 0, capa_fondo, par_fondo);
+with (obj_solido)
+{
+	scr_estilo_bloque();
+}
+with (obj_enemigo_pastipollo)
+{
+	scr_estilo_enemigo1();
+}
+with (obj_enemigo_cespipollo)
+{
+	scr_estilo_enemigo2();
+}
+with (obj_enemigo_jefe_campo)
+{
+	scr_estilo_jefe();
+}
 #endregion

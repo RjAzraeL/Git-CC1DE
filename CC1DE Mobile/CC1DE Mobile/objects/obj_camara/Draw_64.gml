@@ -19,7 +19,10 @@ scr_dibujar(sprite_poder2, sprite_poder1, 32, 32, _xx, 24, 56 + sin(valor_seno),
 if (golpeado > 0)
 {
 	golpeado--;
-	scr_dibujar(sprccr, sprcc1, 64, 64, _xx ,  24+32*(control.vida), 24+sin(valor_seno+control.vida), 0, c_red, (golpeado*.5)/60);
+	scr_dibujar(sprccr, sprcc1, 64, 64, _xx ,  24+32*(control.vida), 12+sin(valor_seno+control.vida), 0, c_red, (golpeado*.5)/60);
 }
-draw_text(64,64,instance_number(all));
+if (keyboard_check(vk_f1))
+{
+	draw_text(64,64,instance_number(all));
+}
 #endregion
