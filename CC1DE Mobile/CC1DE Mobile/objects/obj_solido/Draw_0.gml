@@ -6,7 +6,7 @@ for (var i = 0; i < image_xscale; i++)
 	{
 		var _x = x+16+32*i;
 		var _y = y+16+32*j;
-		if (point_distance(obj_camara.x, obj_camara.y, _x, _y) <= 1000)
+		if (point_distance(obj_camara.x, obj_camara.y, _x, _y) <= 900)
 		{
 			var _sprite = sprCC1zn1Block;
 			var _offset = 0;

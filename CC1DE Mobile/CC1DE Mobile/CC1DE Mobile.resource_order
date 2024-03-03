@@ -428,6 +428,7 @@
     {"name":"objBlockDesert","order":21,"path":"objects/objBlockDesert/objBlockDesert.yy",},
     {"name":"rmZnfLv4a","order":4,"path":"rooms/rmZnfLv4a/rmZnfLv4a.yy",},
     {"name":"sprCCRskinHueva","order":49,"path":"sprites/sprCCRskinHueva/sprCCRskinHueva.yy",},
+    {"name":"sprCC1zn0Background","order":13,"path":"sprites/sprCC1zn0Background/sprCC1zn0Background.yy",},
     {"name":"rmZn1Lv0","order":11,"path":"rooms/rmZn1Lv0/rmZn1Lv0.yy",},
     {"name":"sprCC1skinWarriorSuper","order":113,"path":"sprites/sprCC1skinWarriorSuper/sprCC1skinWarriorSuper.yy",},
     {"name":"sprCC1zn1Enemie2","order":2,"path":"sprites/sprCC1zn1Enemie2/sprCC1zn1Enemie2.yy",},

@@ -49,7 +49,7 @@ for (var i = 0; i < 4; i++)
 				var _tope_y = ceil(room_height/_tamano_y);
 				for (var k = 0; k <= _tope_y; k++)
 				{
-					scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j, _tamano_yy2*k);
+					scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j, _tamano_yy2 + _tamano_y*k);
 				}
 			}
 			else

@@ -25,42 +25,47 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 }
 
 
-function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index)
+function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real)
 {
-	if (control.estilo_actual != 0)
+	if (point_distance(obj_camara.x, obj_camara.y, __x, __y) <= 900 or object_index == obj_camara)
 	{
-		var _aux = _spr2;
-		_spr2 = _spr1;
-		_spr1 = _aux;
+		var _c = _color;
+		var _af = _alpha;
+		if (control.estilo_actual != 0)
+		{
+			var _aux = _spr2;
+			_spr2 = _spr1;
+			_spr1 = _aux;
+		}
+		#region tamaño
+		var _w1 = sprite_get_width(_spr1);
+		var _h1 = sprite_get_height(_spr1);
+		var _w2 = sprite_get_width(_spr2);
+		var _h2 = sprite_get_height(_spr2);
+		var _ww2 = _w1/2;
+		var _hh2 = _h1/2;
+		#endregion
+		#region escala y rotación
+		var _sx = _escalax;
+		var _sy = _escalay;
+		var _an = angulo_real;
+		#endregion
+		#region variable
+		var _v1 = clamp( _linea_x - __x + _ww2, 0, _w1 );
+		#endregion
+		#region transformation
+		var _lf1 = _v1;
+		var _lf2 = 0;
+		var _lw1 = _w1 - _v1;
+		var _lw2 = _v1;
+		#endregion
+		#region posición
+		var _px1 = __x - lengthdir_x(_ww2 * _sx, angulo_real) + lengthdir_x(_v1 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real-90);
+		var _py1 = __y - lengthdir_y(_ww2 * _sx, angulo_real) + lengthdir_y(_v1 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real-90);
+		var _px2 = __x - lengthdir_x(_ww2 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real - 90);
+		var _py2 = __y - lengthdir_y(_ww2 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real - 90);
+		#endregion
+		draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, _c, _c, _c, _c, _af);
+		draw_sprite_general(_spr2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2, _sx, _sy, _an, _c, _c, _c, _c, _af);
 	}
-	#region tamaño
-	var _w1 = sprite_get_width(_spr1);
-	var _h1 = sprite_get_height(_spr1);
-	var _w2 = sprite_get_width(_spr2);
-	var _h2 = sprite_get_height(_spr2);
-	var _ww2 = _w1/2;
-	var _hh2 = _h1/2;
-	#endregion
-	#region escala y rotación
-	var _sx = escala_x_real;
-	var _sy = escala_y_real;
-	var _an = angulo_real;
-	#endregion
-	#region variable
-	var _v1 = clamp( _linea_x - __x + _ww2, 0, _w1 );
-	#endregion
-	#region transformation
-	var _lf1 = _v1;
-	var _lf2 = 0;
-	var _lw1 = _w1 - _v1;
-	var _lw2 = _v1;
-	#endregion
-	#region posición
-	var _px1 = __x - lengthdir_x(_ww2 * _sx, angulo_real) + lengthdir_x(_v1 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real-90);
-	var _py1 = __y - lengthdir_y(_ww2 * _sx, angulo_real) + lengthdir_y(_v1 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real-90);
-	var _px2 = __x - lengthdir_x(_ww2 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real - 90);
-	var _py2 = __y - lengthdir_y(_ww2 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real - 90);
-	#endregion
-	draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, image_blend, image_blend, image_blend, image_blend, image_alpha);
-	draw_sprite_general(_spr2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2, _sx, _sy, _an, image_blend, image_blend, image_blend, image_blend, image_alpha);
 }

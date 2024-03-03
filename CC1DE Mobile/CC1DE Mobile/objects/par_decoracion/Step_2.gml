@@ -1,0 +1,2 @@
+#region decoración espontánea
+#endregion

@@ -12,8 +12,8 @@
     "path": "folders/Objects/padres.yy",
   },
   "parentObjectId": {
-    "name": "par_decoracion",
-    "path": "objects/par_decoracion/par_decoracion.yy",
+    "name": "par_entidad",
+    "path": "objects/par_entidad/par_entidad.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
