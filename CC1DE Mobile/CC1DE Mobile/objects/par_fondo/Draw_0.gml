@@ -3,18 +3,13 @@ estilo = control.estilo_actual;
 estilo_viejo = control.estilo_viejo;
 color_fondo_actual = color_fondo[estilo];
 color_fondo_viejo = color_fondo[estilo_viejo];
-
-if (control.estilo_actual != 0)
-{
-	var _aux = color_fondo_actual;
-	color_fondo_actual = color_fondo_viejo;
-	color_fondo_viejo = _aux;
-}
+var f_a = color_fondo_actual;
+var f_v = color_fondo_viejo;
 
 #region color actual
-draw_set_color(color_fondo_actual);
+draw_set_color(f_a);
 draw_rectangle(obj_camara.linea_x, 0, room_width, room_height, false);
-draw_set_color(color_fondo_viejo);
+draw_set_color(f_v);
 draw_rectangle(0, 0, obj_camara.linea_x, room_height, false);
 draw_set_color(c_white);
 #endregion

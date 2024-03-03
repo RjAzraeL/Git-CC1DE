@@ -67,5 +67,20 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 		#endregion
 		draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, _c, _c, _c, _c, _af);
 		draw_sprite_general(_spr2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2, _sx, _sy, _an, _c, _c, _c, _c, _af);
+		#region extras
+		var _ye = 3;
+		var _col = (collision_point(__x, __y-32, par_solido, false, false));
+		if (!_col)
+		{
+			if (_spr2 == sprCCRzn1Block)
+			{
+				draw_sprite_general(sprCCRzn1Block2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2 - _ye, _sx, _sy, _an, _c, _c, _c, _c, _af);
+			}
+			if (_spr1 == sprCCRzn1Block)
+			{
+				draw_sprite_general(sprCCRzn1Block2, _index, _lf1, 0, _lw1 , _h1, _px1, _py1 - _ye, _sx, _sy, _an, _c, _c, _c, _c, _af);
+			}
+		}
+		#endregion
 	}
 }
