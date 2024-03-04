@@ -6,6 +6,7 @@ estilo_actual = 0;
 vida = 5;
 resolucion_ancho = 854;
 resolucion_alto = 480;
+rango = 900;
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
 #endregion

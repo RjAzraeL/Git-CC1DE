@@ -27,7 +27,7 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 
 function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real)
 {
-	if (point_distance(obj_camara.x, obj_camara.y, __x, __y) <= 900 or object_index == obj_camara)
+	if (point_distance(obj_camara.x, obj_camara.y, __x, __y) <= control.rango or object_index == obj_camara)
 	{
 		var _c = _color;
 		var _af = _alpha;

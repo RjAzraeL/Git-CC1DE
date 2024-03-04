@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_crear_lista",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genérico",
-    "path": "folders/Scripts/genérico.yy",
+  "$GMScript":"",
+  "%Name":"scr_crear_lista",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_crear_lista",
+  "parent":{
+    "name":"genérico",
+    "path":"folders/Scripts/genérico.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_dibujar",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "estilo",
-    "path": "folders/Scripts/estilo.yy",
+  "$GMScript":"",
+  "%Name":"scr_dibujar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dibujar",
+  "parent":{
+    "name":"estilo",
+    "path":"folders/Scripts/estilo.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
