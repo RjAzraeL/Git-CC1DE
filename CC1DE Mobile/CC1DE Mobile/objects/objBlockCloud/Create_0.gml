@@ -5,6 +5,7 @@ angulo_real = 0;
 escala_x_real = 1;
 escala_y_real = 1;
 movimiento_horizontal = 1;
+salto_valor = 12;
 #endregion
 
 

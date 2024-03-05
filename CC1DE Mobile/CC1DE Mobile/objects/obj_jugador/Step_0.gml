@@ -65,13 +65,13 @@ while (place_meeting(x,y,par_solido) and _aumento < 8)
 #endregion
 #endregion
 #region trampolín
-if (place_meeting(x, y, obj_trampolin))
+if (place_meeting(x, y, par_trampolin))
 {
 	var _trampolin = instance_place(x, y, obj_trampolin);
 	if (_trampolin.salto == 0)
 	{
 		_trampolin.salto = 30;
-		movimiento_vertical = -12;
+		movimiento_vertical = -_trampolin.salto_valor;
 	}
 }
 #endregion

@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trampolin",
+  "%Name":"par_trampolin",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trampolin",
+  "name":"par_trampolin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"padres",
+    "path":"folders/Objects/padres.yy",
   },
   "parentObjectId":{
-    "name":"par_trampolin",
-    "path":"objects/par_trampolin/par_trampolin.yy",
+    "name":"par_decoracion",
+    "path":"objects/par_decoracion/par_decoracion.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_trampolin",
-    "path":"sprites/spr_trampolin/spr_trampolin.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
