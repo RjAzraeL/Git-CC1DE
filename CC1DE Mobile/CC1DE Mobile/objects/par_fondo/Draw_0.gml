@@ -39,7 +39,7 @@ for (var i = 0; i < 4; i++)
 		for (var j = 0; j <= _tope; j++)
 		{
 			fondo1 = fondo_actual[i];
-			if (control.zona_actual == 0)
+			if (control.zona_actual == 0 or control.zona_actual == zona_fabrica)
 			{
 				var _tope_y = ceil(room_height/_tamano_y);
 				for (var k = 0; k <= _tope_y; k++)
