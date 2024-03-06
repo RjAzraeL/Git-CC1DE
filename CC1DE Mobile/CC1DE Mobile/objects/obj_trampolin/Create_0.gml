@@ -7,5 +7,5 @@ spr_cc2 = sprCCRresTrampoline;
 angulo_real = 0;
 escala_x_real = 1;
 escala_y_real = 1;
-salto_valor = 8;
+salto_valor = 10;
 #endregion

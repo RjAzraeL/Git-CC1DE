@@ -52,6 +52,41 @@ switch (room)
 		control.zona_actual = 2;
 		break;
 	}
+	case(rmZn3Lv1a):
+	{
+		control.zona_actual = 3;
+		break;
+	}
+	case(rmZn4Lv1a):
+	{
+		control.zona_actual = 4;
+		break;
+	}
+	case(rmZn5Lv0):
+	{
+		control.zona_actual = 5;
+		break;
+	}
+	case(rmZn6Lv0):
+	{
+		control.zona_actual = 6;
+		break;
+	}
+	case(rmZn7Lv0):
+	{
+		control.zona_actual = 7;
+		break;
+	}
+	case(rmZn8Lv0):
+	{
+		control.zona_actual = 8;
+		break;
+	}
+	case(rmZnfLv1a):
+	{
+		control.zona_actual = 9;
+		break;
+	}
 }
 #endregion
 #region crear capa de fondo

@@ -67,7 +67,7 @@ while (place_meeting(x,y,par_solido) and _aumento < 8)
 #region trampolín
 if (place_meeting(x, y, par_trampolin))
 {
-	var _trampolin = instance_place(x, y, obj_trampolin);
+	var _trampolin = instance_place(x, y, par_trampolin);
 	if (_trampolin.salto == 0)
 	{
 		_trampolin.salto = 30;
