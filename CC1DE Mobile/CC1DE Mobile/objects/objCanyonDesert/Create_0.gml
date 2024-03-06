@@ -9,6 +9,11 @@ objetivo = obj_jugador;
 disparo = 0;
 disparo_total = 100;
 velocidad = 8;
+if (control.zona_actual == zona_fabrica)
+{
+	spr_cc1 = sprCC1resCanyon;
+	spr_cc2 = sprCCRresCanyon;
+}
 #endregion
 
 

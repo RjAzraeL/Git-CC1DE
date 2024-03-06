@@ -37,8 +37,11 @@ valor_seno_real = sin(valor_seno);
 if (scr_existe(par_pollo_jefe))
 {
 	zoom_objetivo = 1;
-	x += (centro_x - x) * velocidad;
-	y += (centro_y - y) * velocidad;
+	if (instance_exists(obj_jugador))
+	{
+		x += (obj_jugador.x - x) * velocidad;
+		y += (obj_jugador.y - y) * velocidad;
+	}
 }
 else
 {

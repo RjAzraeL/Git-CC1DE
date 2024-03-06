@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"objCanyonFactory",
+  "%Name":"objCanyonShuriken",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objCanyonFactory",
+  "name":"objCanyonShuriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"Factory",
-    "path":"folders/Objects/Factory.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_decoracion",
+    "path":"objects/par_decoracion/par_decoracion.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

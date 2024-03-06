@@ -9,9 +9,16 @@ if (place_meeting(x + movimiento_horizontal, y, par_solido))
 	}
 	movimiento_horizontal = -movimiento_horizontal;
 }
-if (!place_meeting(x+anchura*sign(movimiento_horizontal), y+altura, par_solido))
+if (!place_meeting(x+anchura*sign(movimiento_horizontal), y+altura, par_solido) and control.zona_actual != 3)
 {
 	movimiento_horizontal = -movimiento_horizontal;
+}
+if (control.zona_actual == 3)
+{
+	if (x < 16)
+	{
+		movimiento_horizontal = -movimiento_horizontal;
+	}
 }
 #endregion
 #endregion
