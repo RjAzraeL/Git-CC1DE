@@ -10,7 +10,7 @@ x += movimiento_horizontal;
 y += movimiento_vertical;
 #endregion
 #region choque
-if (place_meeting(x, y, par_solido))
+if (place_meeting(x, y, par_solido) or place_meeting(x, y, objBlockDesert))
 {
 	instance_destroy();
 }

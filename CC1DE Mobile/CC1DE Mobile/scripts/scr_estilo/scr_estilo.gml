@@ -5,6 +5,45 @@ function scr_estilo_bloque()
 	spr_cc3 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
 }
 
+function scr_estilo_poder()
+{
+	spr_cc1 = sprCC1atkShurikenGrass;
+	spr_cc2 = sprCCRatkShurikenGrass;
+	switch (control.zona_actual)
+	{
+		case(zona_campo):
+		{
+			spr_cc1 = sprCC1atkShurikenGrass;
+			spr_cc2 = sprCCRatkShurikenGrass;
+			break;
+		}
+		case(zona_volcan):
+		{
+			spr_cc1 = sprCC1atkShurikenFire;
+			spr_cc2 = sprCCRatkShurikenFire;
+			break;
+		}
+		case(zona_cielo):
+		{
+			spr_cc1 = sprCC1atkShurikenFrozen;
+			spr_cc2 = sprCCRatkShurikenFrozen;
+			break;
+		}
+		case(zona_desierto):
+		{
+			spr_cc1 = sprCC1atkShurikenDesert;
+			spr_cc2 = sprCCRatkShurikenDesert;
+			break;
+		}
+		case(zona_nevada):
+		{
+			spr_cc1 = sprCC1atkShurikenFrozen;
+			spr_cc2 = sprCCRatkShurikenFrozen;
+			break;
+		}
+	}
+}
+
 function scr_estilo_enemigo1()
 {
 	if (control.zona_actual != zona_hogar)
