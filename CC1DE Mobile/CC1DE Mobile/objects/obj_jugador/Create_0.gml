@@ -1,4 +1,5 @@
 #region variables
+event_inherited();
 bando = 0;
 lastimado_enfriamiento = 0;
 lastimado_enfriamiento_total = 60;

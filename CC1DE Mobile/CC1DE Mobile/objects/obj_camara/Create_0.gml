@@ -4,9 +4,9 @@ if (actual != 0)
 {
 	with (par_entidad)
 	{
-		var _aux = spr_cc1;
-		spr_cc1 = spr_cc2;
-		spr_cc2 = _aux;
+		//var _aux = spr_cc1;
+		//spr_cc1 = spr_cc2;
+		//spr_cc2 = _aux;
 	}
 }
 sprccr = sprCCRskinPollier;
