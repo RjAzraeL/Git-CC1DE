@@ -1,8 +1,17 @@
 function scr_estilo_bloque()
 {	
-	spr_cc1 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
-	spr_cc2 = asset_get_index("sprCCRzn"+string(control.zona_actual)+"Block");
-	spr_cc3 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
+	if (control.zona_actual == zona_fabrica)
+	{
+		spr_cc1 = asset_get_index("sprCC1znfBlock");
+		spr_cc2 = asset_get_index("sprCCRznfBlock");
+		spr_cc3 = asset_get_index("sprCC1znfBlock");
+	}
+	else
+	{
+		spr_cc1 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
+		spr_cc2 = asset_get_index("sprCCRzn"+string(control.zona_actual)+"Block");
+		spr_cc3 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
+	}
 }
 
 function scr_estilo_poder()

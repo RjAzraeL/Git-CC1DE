@@ -29,7 +29,7 @@ if (nivel_ganado)
 }
 #endregion
 #region vertical
-if (tecla_salto_activa and place_meeting(x, y+1, par_solido) and !place_meeting(x,y-salto,par_solido) and !nivel_ganado)
+if (tecla_salto_activa and (place_meeting(x, y+1, par_solido) or (movimiento_vertical >= 0 and control.zona_actual == zona_fabrica)) and !place_meeting(x,y-salto,par_solido) and !nivel_ganado)
 {
 	movimiento_vertical = -salto;
 }
@@ -129,6 +129,11 @@ if (scr_existe(obj_meta) and !nivel_ganado)
 	{
 		nivel_ganado = true;
 	}
+}
+if (place_meeting(x, y, objExitFactory) and !nivel_ganado)
+{
+	nivel_ganado = true;
+	room_goto_next();
 }
 #endregion
 #region caída

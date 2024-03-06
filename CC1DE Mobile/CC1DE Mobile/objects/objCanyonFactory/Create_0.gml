@@ -6,8 +6,8 @@ escala_x_real = 1;
 escala_y_real = 1;
 rango = 360;
 objetivo = obj_jugador;
-disparo = 0;
-disparo_total = 100;
+disparo = 80;
+disparo_total = 80;
 velocidad = 4;
 angulo_real_visual = 0;
 #endregion

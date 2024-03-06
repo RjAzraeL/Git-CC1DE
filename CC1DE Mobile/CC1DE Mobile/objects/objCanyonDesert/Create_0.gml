@@ -6,7 +6,7 @@ escala_x_real = 1;
 escala_y_real = 1;
 rango = 360;
 objetivo = obj_jugador;
-disparo = 0;
+disparo = 75;
 disparo_total = 100;
 velocidad = 8;
 if (control.zona_actual == zona_fabrica)
