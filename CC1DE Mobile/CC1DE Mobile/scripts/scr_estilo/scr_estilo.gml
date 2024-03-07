@@ -50,6 +50,24 @@ function scr_estilo_poder()
 			spr_cc2 = sprCCRatkShurikenFrozen;
 			break;
 		}
+		case(zona_cueva):
+		{
+			spr_cc1 = sprCC1atkShurikenFrozen;
+			spr_cc2 = sprCCRatkShurikenFrozen;
+			break;
+		}
+		case(zona_infierno):
+		{
+			spr_cc1 = sprCC1atkEggFire;
+			spr_cc2 = sprCC1atkEggFire;
+			break;
+		}
+		case(zona_pesadilla):
+		{
+			spr_cc1 = sprCC1atkEggDark;
+			spr_cc2 = sprCC1atkEggDark;
+			break;
+		}
 	}
 }
 
