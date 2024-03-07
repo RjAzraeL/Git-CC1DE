@@ -81,7 +81,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":320,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":{"name":"obj_camara","path":"objects/obj_camara/obj_camara.yy",},"vborder":180,"visible":true,"vspeed":-1,"wport":854,"wview":854,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":320,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":180,"visible":true,"vspeed":-1,"wport":854,"wview":854,"xport":0,"xview":116,"yport":0,"yview":32,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
