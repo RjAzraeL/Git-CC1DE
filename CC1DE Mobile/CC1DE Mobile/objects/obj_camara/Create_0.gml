@@ -62,22 +62,22 @@ switch (room)
 		control.zona_actual = 4;
 		break;
 	}
-	case(rmZn5Lv0):
+	case(rmZn5Lv1a):
 	{
 		control.zona_actual = 5;
 		break;
 	}
-	case(rmZn6Lv0):
+	case(rmZn6Lv1a):
 	{
 		control.zona_actual = 6;
 		break;
 	}
-	case(rmZn7Lv0):
+	case(rmZn7Lv1a):
 	{
 		control.zona_actual = 7;
 		break;
 	}
-	case(rmZn8Lv0):
+	case(rmZn8Lv1a):
 	{
 		control.zona_actual = 8;
 		break;
