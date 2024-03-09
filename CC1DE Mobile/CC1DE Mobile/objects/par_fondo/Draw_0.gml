@@ -49,15 +49,15 @@ for (var i = 0; i < 4; i++)
 			}
 			else
 			{
-				fondo_velocidad[i] += .1;
-				if (fondo_velocidad[i] >= _tamano_x)
+				fondo_posicion[i] += fondo_velocidad[i];
+				if (fondo_posicion[i] >= _tamano_x)
 				{
-					fondo_velocidad[i] = 0;
+					fondo_posicion[i] = 0;
 				}
 				//scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j, _tamano_yy2);
-				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+fondo_velocidad[i], _tamano_yy2);
-				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j-(_tamano_x)+(fondo_velocidad[i]), _tamano_yy2);
-				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+(_tamano_x)+(fondo_velocidad[i]), _tamano_yy2);
+				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+fondo_posicion[i], _tamano_yy2);
+				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j-(_tamano_x)+(fondo_posicion[i]), _tamano_yy2);
+				scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+(_tamano_x)+(fondo_posicion[i]), _tamano_yy2);
 			}
 		
 		}
