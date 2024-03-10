@@ -25,7 +25,7 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 }
 
 
-function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real)
+function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real, _alpha1 = 1, _alpha2 = 1)
 {
 	if (point_distance(obj_camara.x, obj_camara.y, __x, __y) <= control.rango or object_index == obj_camara)
 	{
@@ -34,8 +34,12 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 		if (control.estilo_actual != 0)
 		{
 			var _aux = _spr2;
+			var _auxa = _alpha2;
 			_spr2 = _spr1;
 			_spr1 = _aux;
+			_alpha2 = _alpha1;
+			_alpha1 = _auxa;
+			
 		}
 		#region tamaño
 		var _w1 = sprite_get_width(_spr1);
@@ -65,8 +69,8 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 		var _px2 = __x - lengthdir_x(_ww2 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real - 90);
 		var _py2 = __y - lengthdir_y(_ww2 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real - 90);
 		#endregion
-		draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, _c, _c, _c, _c, _af);
-		draw_sprite_general(_spr2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2, _sx, _sy, _an, _c, _c, _c, _c, _af);
+		draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, _c, _c, _c, _c, _alpha1);
+		draw_sprite_general(_spr2, _index, _lf2, 0, _lw2 , _h2, _px2, _py2, _sx, _sy, _an, _c, _c, _c, _c, _alpha2);
 		#region extras
 		var _ye = 3;
 		var _col = (collision_point(__x, __y-32, par_solido, false, false));

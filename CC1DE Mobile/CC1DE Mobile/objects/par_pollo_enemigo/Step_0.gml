@@ -1,6 +1,10 @@
 #region movimiento
 #region colisión
 #region horizontal
+if (place_meeting(x + movimiento_horizontal, y, obj_meta))
+{
+	movimiento_horizontal = -movimiento_horizontal;
+}
 if (place_meeting(x + movimiento_horizontal, y, par_solido))
 {
 	while(!place_meeting(x + sign(movimiento_horizontal), y, par_solido))

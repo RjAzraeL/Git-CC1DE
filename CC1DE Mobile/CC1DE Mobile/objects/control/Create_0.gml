@@ -1,4 +1,5 @@
 #region variables
+randomize();
 scr_data();
 estilo_viejo = 1;
 zona_actual = 0;
@@ -6,7 +7,7 @@ estilo_actual = 0;
 vida = 5;
 resolucion_ancho = 854;
 resolucion_alto = 480;
-rango = 1500;
+pollo_actual = irandom( ds_list_size(data_pollo)-2 );
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
 #endregion

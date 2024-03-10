@@ -9,8 +9,8 @@ if (actual != 0)
 		//spr_cc2 = _aux;
 	}
 }
-sprccr = sprCCRskinPollier;
-sprcc1 = sprCC1skinPollier;
+sprccr = scr_pollo_dame_ccr(control.pollo_actual);
+sprcc1 = scr_pollo_dame_cc1(control.pollo_actual);
 sprite_pollo = sprCC1skinPollier;
 sprite_poder1 = sprCC1atkEgg;
 sprite_poder2 = sprCCRatkEgg;

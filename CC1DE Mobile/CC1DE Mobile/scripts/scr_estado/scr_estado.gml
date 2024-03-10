@@ -66,10 +66,8 @@ function scr_sprite_indice()
 	}
 	if (movimiento_horizontal > 0)
 	{		
-		image_index = indice_der + _fase;
 	}
 	if (movimiento_horizontal < 0)
 	{
-		image_index = indice_izq + _fase;
 	}
 }

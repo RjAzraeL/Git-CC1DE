@@ -7,7 +7,7 @@ vida = 5;
 estado = "parado";
 parpadeo_total = 120;
 parpadeo = 0;
-image_speed = 0;
+image_speed = 0.1;
 image_index = 0;
 movimiento_vertical = 0;
 ultima_direccion = 1;
@@ -24,8 +24,10 @@ escala_x_real = 0;
 escala_y_real = 0;
 angulo = 0;
 angulo_real = 0;
-spr_cc1 = sprCC1skinPollier;
-spr_cc2 = sprCCRskinPollier;
+spr_cc2 = scr_pollo_dame_ccr(control.pollo_actual);
+spr_cc1 = scr_pollo_dame_cc1(control.pollo_actual);
+indice = 0;
+indice_random = 5;
 #region controles
 joystick = 
 {

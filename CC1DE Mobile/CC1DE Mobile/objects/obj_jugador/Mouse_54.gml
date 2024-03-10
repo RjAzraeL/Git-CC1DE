@@ -1,4 +1,4 @@
 #region tp
-x = mouse_x;
-y = mouse_y;
+//x = mouse_x;
+//y = mouse_y;
 #endregion

@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprCC1skinPollier",
-    "path":"sprites/sprCC1skinPollier/sprCC1skinPollier.yy",
+    "name":"sprCCRskinPollier",
+    "path":"sprites/sprCCRskinPollier/sprCCRskinPollier.yy",
   },
   "spriteMaskId":{
     "name":"sprCCRmask",

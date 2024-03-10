@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sprCCRzn0Background",
   "bboxMode":0,
-  "bbox_bottom":95,
+  "bbox_bottom":575,
   "bbox_left":0,
-  "bbox_right":95,
+  "bbox_right":671,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,9 +14,9 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"059177f2-e304-4bdc-993e-e00bcf2cf6f7","name":"059177f2-e304-4bdc-993e-e00bcf2cf6f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":96,
+  "gridX":96,
+  "gridY":96,
+  "height":576,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6d49b5e4-2e11-4add-bad8-b510e2574b5f","blendMode":0,"displayName":"default","isLocked":false,"name":"6d49b5e4-2e11-4add-bad8-b510e2574b5f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":672,
 }

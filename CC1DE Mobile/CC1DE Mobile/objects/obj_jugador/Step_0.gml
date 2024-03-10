@@ -11,13 +11,28 @@ var tecla_estilo_activa = keyboard_check(tecla_estilo);
 #endregion
 #region movimiento
 #region gravedad
-if (!place_meeting(x,y+1,par_solido))
+var _gravedad = gravedad;
+if (place_meeting(x, y, objWater))
 {
-	movimiento_vertical += gravedad;
+	if (movimiento_vertical >= 0)
+	{
+		movimiento_vertical -= _gravedad;
+	}
+	else
+	{
+		movimiento_vertical -= _gravedad/2;
+	}
 }
 else
 {
-	movimiento_vertical = 0;
+	if (!place_meeting(x,y+1,par_solido))
+	{
+		movimiento_vertical += _gravedad;
+	}
+	else
+	{
+		movimiento_vertical = 0;
+	}
 }
 #endregion
 #region horizontal
@@ -29,7 +44,7 @@ if (nivel_ganado)
 }
 #endregion
 #region vertical
-if (tecla_salto_activa and (place_meeting(x, y+1, par_solido) or (movimiento_vertical >= 0 and control.zona_actual == zona_fabrica)) and !place_meeting(x,y-salto,par_solido) and !nivel_ganado)
+if (tecla_salto_activa and (place_meeting(x, y+1, par_solido) or place_meeting(x, y, objWater) or (movimiento_vertical >= 0 and control.zona_actual == zona_fabrica)) and !place_meeting(x,y-salto,par_solido) and !nivel_ganado)
 {
 	movimiento_vertical = -salto;
 }
@@ -117,6 +132,21 @@ if (lastimado_enfriamiento > 0)
 #endregion
 #region estado
 scr_estado();
+#endregion
+#region índice
+if (indice_random > 0)
+{
+	indice_random--;
+}
+else
+{
+	indice += .1;
+	if (indice >= 3.9)
+	{
+		indice = 0;
+		indice_random = irandom(300);
+	}
+}
 #endregion
 #region sprite
 scr_sprite();
