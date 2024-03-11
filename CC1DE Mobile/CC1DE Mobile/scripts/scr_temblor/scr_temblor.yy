@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_temblor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_temblor",
+  "parent":{
+    "name":"miscelaneo",
+    "path":"folders/Scripts/miscelaneo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

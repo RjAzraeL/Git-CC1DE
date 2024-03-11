@@ -9,6 +9,8 @@ if (actual != 0)
 		//spr_cc2 = _aux;
 	}
 }
+tiempo_temblor = 0;
+tiempo_temblor_tope = 120;
 sprccr = scr_pollo_dame_ccr(control.pollo_actual);
 sprcc1 = scr_pollo_dame_cc1(control.pollo_actual);
 sprite_pollo = sprCC1skinPollier;
@@ -88,6 +90,7 @@ switch (room)
 		break;
 	}
 }
+temblar = (control.zona_actual == zona_volcan or control.zona_actual == zona_infierno or control.zona_actual == zona_pesadilla) ? true : false;
 #endregion
 #region crear capa de fondo
 var capa_fondo = layer_create(550, "fondo");

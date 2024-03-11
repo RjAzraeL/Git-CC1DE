@@ -82,3 +82,15 @@ else
 zoom = lerp(zoom , zoom_objetivo , .05);
 camera_set_view_size(view_camera[0] , control.resolucion_ancho*zoom , control.resolucion_alto*zoom);
 #endregion
+#region temblor
+if (temblar)
+{
+	tiempo_temblor++;
+	if (tiempo_temblor > tiempo_temblor_tope)
+	{
+		tiempo_temblor = 0;
+		tiempo_temblor_tope = irandom_range(60, 300);
+		scr_temblor_aplicar(30, 2);
+	}
+}
+#endregion

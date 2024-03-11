@@ -1,6 +1,9 @@
 #region variables
 randomize();
 scr_data();
+temblor = 0;
+temblor_intensidad = 5;
+temblor_seno = 0;
 estilo_viejo = 1;
 zona_actual = 0;
 estilo_actual = 0;
