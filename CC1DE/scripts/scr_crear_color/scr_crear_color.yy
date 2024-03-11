@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_crear_color",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Genérico",
-    "path": "folders/Scripts/Genérico.yy",
+  "$GMScript":"",
+  "%Name":"scr_crear_color",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_crear_color",
+  "parent":{
+    "name":"Genérico",
+    "path":"folders/Scripts/Genérico.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

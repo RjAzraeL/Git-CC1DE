@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_texto",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Genérico",
-    "path": "folders/Scripts/Genérico.yy",
+  "$GMScript":"",
+  "%Name":"scr_texto",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_texto",
+  "parent":{
+    "name":"Genérico",
+    "path":"folders/Scripts/Genérico.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
