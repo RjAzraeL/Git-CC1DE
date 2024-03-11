@@ -13,7 +13,9 @@ if (place_meeting(x + movimiento_horizontal, y, par_solido))
 	}
 	movimiento_horizontal = -movimiento_horizontal;
 }
-if (!place_meeting(x+anchura*sign(movimiento_horizontal), y+altura, par_solido) and control.zona_actual != 3)
+var _checkeo = true;
+_checkeo = (control.zona_actual == 3 and object_index == obj_enemigo_jefe_campo) ? false: _checkeo;
+if (!place_meeting(x+anchura*sign(movimiento_horizontal), y+altura, par_solido) and _checkeo)
 {
 	movimiento_horizontal = -movimiento_horizontal;
 }
