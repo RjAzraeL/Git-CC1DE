@@ -186,3 +186,9 @@ if (tecla_estilo_activa and !obj_camara.cambio_actual)
 	obj_camara.cambio_actual = true;
 }
 #endregion
+#region partícula
+if (!place_meeting(x, y+4, objWater) and control.flama_tiempo == 0 and tengo_flama)
+{
+	scr_generar_flama();
+}
+#endregion

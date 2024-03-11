@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_generar_flama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_generar_flama",
+  "parent":{
+    "name":"miscelaneo",
+    "path":"folders/Scripts/miscelaneo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"FX","order":11,"path":"folders/FX.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Factory","order":26,"path":"folders/Objects/Factory.yy",},
     {"name":"Home","order":23,"path":"folders/Objects/Home.yy",},
@@ -153,6 +154,7 @@
     {"name":"scr_probable","order":9,"path":"scripts/scr_probable/scr_probable.yy",},
     {"name":"scr_reiniciar_juego","order":10,"path":"scripts/scr_reiniciar_juego/scr_reiniciar_juego.yy",},
     {"name":"scr_texto","order":11,"path":"scripts/scr_texto/scr_texto.yy",},
+    {"name":"scr_generar_flama","order":1,"path":"scripts/scr_generar_flama/scr_generar_flama.yy",},
     {"name":"spr_bloque_remasterizacion","order":1,"path":"sprites/spr_bloque_remasterizacion/spr_bloque_remasterizacion.yy",},
     {"name":"spr_fondo_campo","order":2,"path":"sprites/spr_fondo_campo/spr_fondo_campo.yy",},
     {"name":"spr_fondo_campo2","order":3,"path":"sprites/spr_fondo_campo2/spr_fondo_campo2.yy",},

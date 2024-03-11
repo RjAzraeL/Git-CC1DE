@@ -28,6 +28,8 @@ spr_cc2 = scr_pollo_dame_ccr(control.pollo_actual);
 spr_cc1 = scr_pollo_dame_cc1(control.pollo_actual);
 indice = 0;
 indice_random = 5;
+flama_tiempo = 0;
+tengo_flama = (control.pollo_actual == 34);
 #region controles
 joystick = 
 {

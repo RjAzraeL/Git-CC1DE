@@ -15,3 +15,9 @@ if (place_meeting(x, y, par_solido) or place_meeting(x, y, objBlockDesert))
 	instance_destroy();
 }
 #endregion
+#region flama
+if (control.zona_actual == zona_volcan)
+{
+	scr_generar_flama();
+}
+#endregion

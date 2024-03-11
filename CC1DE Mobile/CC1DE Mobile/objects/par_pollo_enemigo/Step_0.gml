@@ -77,3 +77,9 @@ if (vida <= 0)
 	instance_destroy();
 }
 #endregion
+#region flama
+if (control.zona_actual == zona_volcan and object_index != obj_enemigo_cespipollo)
+{
+	scr_generar_flama();
+}
+#endregion

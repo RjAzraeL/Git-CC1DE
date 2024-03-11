@@ -10,6 +10,7 @@ estilo_actual = 0;
 vida = 5;
 resolucion_ancho = 854;
 resolucion_alto = 480;
+flama_tiempo = 0;
 pollo_actual = irandom( ds_list_size(data_pollo)-2 );
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
@@ -30,4 +31,16 @@ window_set_fullscreen(true);
 #macro zona_infierno 7
 #macro zona_pesadilla 8
 #macro zona_fabrica 9
+#endregion
+
+#region partícula
+part_sistema = part_system_create();
+part_system_depth(part_sistema, 400);
+part_type = part_type_create();
+part_type_sprite(part_type, sprCC1atkEggFire, true, false, false);
+part_type_speed(part_type, 3, 5, 0 ,0);
+part_type_size(part_type, 1, 1, 0, 0);
+part_type_alpha3(part_type, 1, .75 ,0);
+part_type_life(part_type, 16, 16);
+part_type_direction(part_type, 90, 90, 0, 0);
 #endregion
