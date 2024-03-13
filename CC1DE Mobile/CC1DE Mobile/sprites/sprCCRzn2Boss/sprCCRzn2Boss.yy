@@ -30,7 +30,7 @@
   ],
   "name":"sprCCRzn2Boss",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Zn2 Volcano",
     "path":"folders/Sprites/Levels/Zn2 Volcano.yy",
@@ -104,7 +104,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":2.525,

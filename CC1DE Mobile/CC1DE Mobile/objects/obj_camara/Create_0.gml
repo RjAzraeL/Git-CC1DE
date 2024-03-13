@@ -35,6 +35,7 @@ centro_x = room_width/2;
 centro_y = room_height/2;
 linea_y = 0;
 linea_x = -64;
+nombre = scr_dame_dato(control.data_pollo,control.pollo_actual,"nombre")
 #endregion
 #region elegir zona
 switch (room)

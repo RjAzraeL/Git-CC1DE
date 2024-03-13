@@ -26,7 +26,7 @@
   ],
   "name":"sprCCRzn3Boss",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Zn3 Sky",
     "path":"folders/Sprites/Levels/Zn3 Sky.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":2.525,

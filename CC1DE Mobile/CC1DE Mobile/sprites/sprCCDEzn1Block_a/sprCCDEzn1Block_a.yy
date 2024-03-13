@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Zn1 Field",
-    "path":"folders/Sprites/Levels/Zn1 Field.yy",
+    "name":"*Obsolet*",
+    "path":"folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

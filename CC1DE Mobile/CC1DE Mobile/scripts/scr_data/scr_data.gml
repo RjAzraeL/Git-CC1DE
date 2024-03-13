@@ -62,7 +62,7 @@ function scr_data_pollo()
 	/*13*/scr_data_crear_pollo("Electron", "", 0);
 	/*14*/scr_data_crear_pollo("FBarce", "", 0);
 	/*15*/scr_data_crear_pollo("FNapoli", "", 0);
-	/*16*/scr_data_crear_pollo("FFooster", "", 0);
+	/*16*/scr_data_crear_pollo("Fooster", "", 0);
 	/*17*/scr_data_crear_pollo("FRealm", "", 0);
 	/*18*/scr_data_crear_pollo("FUni", "", 0);
 	/*19*/scr_data_crear_pollo("Gallo", "", 0);
@@ -104,7 +104,7 @@ function scr_data_pollo()
 	/*55*/scr_data_crear_pollo("Silver", "", 0);
 	/*56*/scr_data_crear_pollo("Snick", "", 0);
 	/*57*/scr_data_crear_pollo("Snow", "", 0);
-	/*58*/scr_data_crear_pollo("TheFanTom", "", 0);
+	/*58*/scr_data_crear_pollo("Phantom", "", 0);
 	/*59*/scr_data_crear_pollo("Toraishi", "", 0);
 	/*60*/scr_data_crear_pollo("Vio", "", 0);
 	/*61*/scr_data_crear_pollo("Voltio", "", 0);
@@ -112,6 +112,23 @@ function scr_data_pollo()
 	/*63*/scr_data_crear_pollo("WarriorSuper", "", 0);
 	/*64*/scr_data_crear_pollo("Zeo", "", 0);
 	/*65*/scr_data_crear_pollo("Zombie", "", 0);
+	/*66*/scr_data_crear_pollo("Bjorn", "", 0);
+	/*67*/scr_data_crear_pollo("Boomy", "", 0);
+	/*68*/scr_data_crear_pollo("Cay", "", 0);
+	/*69*/scr_data_crear_pollo("DerpSoul", "", 0);
+	/*70*/scr_data_crear_pollo("Duncan", "", 0);
+	/*71*/scr_data_crear_pollo("EasyEast", "", 0);
+	/*72*/scr_data_crear_pollo("Eustavio", "", 0);
+	/*73*/scr_data_crear_pollo("Gatarlos", "", 0);
+	/*74*/scr_data_crear_pollo("Jabo", "", 0);
+	/*75*/scr_data_crear_pollo("Miedo", "", 0);
+	/*76*/scr_data_crear_pollo("Plumillas", "", 0);
+	/*77*/scr_data_crear_pollo("Polliro", "", 0);
+	/*78*/scr_data_crear_pollo("Prisma", "", 0);
+	/*79*/scr_data_crear_pollo("Robotop", "", 0);
+	/*80*/scr_data_crear_pollo("Siul", "", 0);
+	
+	
 }
 function scr_data_crear_pollo( nombre, descripcion, precio)
 {

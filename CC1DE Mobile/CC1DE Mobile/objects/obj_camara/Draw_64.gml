@@ -24,5 +24,6 @@ if (golpeado > 0)
 if (keyboard_check(vk_f1))
 {
 	draw_text(64,64,instance_number(all));
+	draw_text(64,128,nombre);
 }
 #endregion

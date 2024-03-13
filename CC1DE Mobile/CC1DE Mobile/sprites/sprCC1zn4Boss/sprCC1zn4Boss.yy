@@ -23,7 +23,7 @@
   ],
   "name":"sprCC1zn4Boss",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Zn4 Desert",
     "path":"folders/Sprites/Levels/Zn4 Desert.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":2.525,

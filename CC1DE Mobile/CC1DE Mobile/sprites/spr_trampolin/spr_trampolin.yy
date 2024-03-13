@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Sprites/Attacks.yy",
+    "name":"*Obsolet*",
+    "path":"folders/Sprites/*Obsolet*.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

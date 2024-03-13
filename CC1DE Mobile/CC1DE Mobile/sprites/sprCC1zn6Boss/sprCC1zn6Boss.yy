@@ -23,7 +23,7 @@
   ],
   "name":"sprCC1zn6Boss",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Zn6 Cave",
     "path":"folders/Sprites/Levels/Zn6 Cave.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
