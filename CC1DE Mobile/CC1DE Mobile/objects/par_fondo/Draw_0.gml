@@ -1,8 +1,25 @@
 #region dibujar fondo
-estilo = control.estilo_actual;
-estilo_viejo = control.estilo_viejo;
+if (control.estilo_actual == 0)
+{
+	estilo = 0;
+	estilo_viejo = 1;
+}
+if (control.estilo_actual == 1)
+{
+	estilo = 1;
+	estilo_viejo = 2;
+}
+if (control.estilo_actual == 2)
+{
+	estilo = 2;
+	estilo_viejo = 0;
+}
 color_fondo_actual = color_fondo[estilo];
 color_fondo_viejo = color_fondo[estilo_viejo];
+fondo_velocidad[0] = _listavelocidad[estilo][| 0];
+fondo_velocidad[1] = _listavelocidad[estilo][| 1];
+fondo_velocidad[2] = _listavelocidad[estilo][| 2];
+fondo_velocidad[3] = _listavelocidad[estilo][| 3];
 var f_a = color_fondo_actual;
 var f_v = color_fondo_viejo;
 
@@ -17,12 +34,6 @@ for (var i = 0; i < 4; i++)
 {
 	fondo_actual[i] = ds_list_find_value(fondo[estilo_viejo], i);
 	fondo_viejo[i] = ds_list_find_value(fondo[estilo], i);
-	if (control.estilo_actual != 0)
-	{
-		var _aux = fondo_actual[i];
-		fondo_actual[i] = fondo_viejo[i];
-		fondo_viejo[i] = _aux;
-	}
 	fondo2 = sin_fondo;
 	fondo1 = sin_fondo;
 	var _alpha1 = 0;
@@ -65,4 +76,8 @@ for (var i = 0; i < 4; i++)
 		}
 	}
 }
+draw_set_color(c_black);
+draw_text(mouse_x, mouse_y+16,"ea"+string(estilo));
+draw_text(mouse_x, mouse_y+32,"ev"+string(estilo_viejo));
+draw_set_color(c_white);
 #endregion

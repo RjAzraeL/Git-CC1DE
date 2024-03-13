@@ -31,7 +31,26 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 	{
 		var _c = _color;
 		var _af = _alpha;
-		if (control.estilo_actual != 0)
+		if (object_index != par_fondo)
+		{
+			if (control.estilo_actual == 2)
+			{
+				_spr2 = spr_cc1;
+				_spr1 = spr_cc3;
+			}
+			if (control.estilo_actual == 0)
+			{
+				_spr2 = spr_cc2;
+				_spr1 = spr_cc1;
+			}
+			if (control.estilo_actual == 1)
+			{
+				_spr2 = spr_cc3;
+				_spr1 = spr_cc2;
+			}
+		}
+		/*
+		if (control.estilo_actual == 1)
 		{
 			var _aux = _spr2;
 			var _auxa = _alpha2;
@@ -39,8 +58,8 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 			_spr1 = _aux;
 			_alpha2 = _alpha1;
 			_alpha1 = _auxa;
-			
 		}
+		*/
 		#region tamaño
 		var _w1 = sprite_get_width(_spr1);
 		var _h1 = sprite_get_height(_spr1);

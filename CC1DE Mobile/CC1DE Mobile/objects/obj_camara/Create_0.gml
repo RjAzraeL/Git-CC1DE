@@ -11,8 +11,9 @@ if (actual != 0)
 }
 tiempo_temblor = 0;
 tiempo_temblor_tope = 120;
-sprccr = scr_pollo_dame_ccr(control.pollo_actual);
-sprcc1 = scr_pollo_dame_cc1(control.pollo_actual);
+spr_cc1 = scr_pollo_dame_ccr(control.pollo_actual);
+spr_cc2 = scr_pollo_dame_cc1(control.pollo_actual);
+spr_cc3 = scr_pollo_dame_ccr(control.pollo_actual);
 sprite_pollo = sprCC1skinPollier;
 sprite_poder1 = sprCC1atkEgg;
 sprite_poder2 = sprCCRatkEgg;

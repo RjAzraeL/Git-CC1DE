@@ -9,7 +9,7 @@ if (cambio_valor < cambio_total and cambio_actual)
 		linea_x = -64;
 		control.estilo_viejo = control.estilo_actual;
 		control.estilo_actual++;
-		if (control.estilo_actual > 1)
+		if (control.estilo_actual > 2)
 		{
 			control.estilo_actual = 0;
 		}

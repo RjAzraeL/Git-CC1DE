@@ -2,7 +2,7 @@
 var _xx = obj_camara.linea_x - scr_x();
 for (var i = 0; i < control.vida; i++)
 {
-	scr_dibujar(sprccr, sprcc1, 64, 64, _xx , 24+32*i,  12+sin(valor_seno+i));
+	scr_dibujar(spr_cc2, spr_cc1, 64, 64, _xx , 24+32*i,  12+sin(valor_seno+i));
 }
 var _carga = 0;
 var _blend = c_gray;
