@@ -14,12 +14,12 @@ if (scr_existe(obj_jugador))
 		_blend = c_white;
 	}
 }
-scr_dibujar(sprite_poder2, sprite_poder1, 32, 32, _xx, 24, 56 + sin(valor_seno), 0, _blend, 1, _carga, _carga);
+scr_dibujar(sprite_poder2, sprite_poder1, 32, 32, _xx, 24, 56 + sin(valor_seno), 0, _blend, 1, _carga, _carga, 1, 1, 24, true);
 
 if (golpeado > 0)
 {
 	golpeado--;
-	scr_dibujar(sprccr, sprcc1, 64, 64, _xx ,  24+32*(control.vida), 12+sin(valor_seno+control.vida), 0, c_red, (golpeado*.5)/60);
+	scr_dibujar(spr_cc2, spr_cc1, 64, 64, _xx ,  24+32*(control.vida), 12+sin(valor_seno+control.vida), 0, c_red, (golpeado*.5)/60);
 }
 if (keyboard_check(vk_f1))
 {

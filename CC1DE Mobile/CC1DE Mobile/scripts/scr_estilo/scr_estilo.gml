@@ -11,6 +11,15 @@ function scr_estilo_bloque()
 		spr_cc1 = asset_get_index("sprCC1zn"+string(control.zona_actual)+"Block");
 		spr_cc2 = asset_get_index("sprCCRzn"+string(control.zona_actual)+"Block");
 		spr_cc3 = asset_get_index("sprSCCzn"+string(control.zona_actual)+"Block");
+		
+		if (control.estilo_actual == estilo_scc)
+		{
+			spr_cc3_alt = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockAlt");
+			spr_cc3_lat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateral");
+			spr_cc3_latlat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateralAlt");
+			spr_cc3_low = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLow");
+			spr_cc3_under = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockUnder");
+		}
 	}
 }
 

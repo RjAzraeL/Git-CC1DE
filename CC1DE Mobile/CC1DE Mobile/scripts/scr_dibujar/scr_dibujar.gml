@@ -25,13 +25,13 @@ function scr_dibujar2(_spr1, _spr2, _anchura, _altura, _linea_x , __x, __y, _ind
 }
 
 
-function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real, _alpha1 = 1, _alpha2 = 1)
+function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _index = image_index, _color = image_blend, _alpha = image_alpha, _escalax = escala_x_real, _escalay = escala_y_real, _alpha1 = 1, _alpha2 = 1, _x2 = __x, _poder = false)
 {
 	if (point_distance(obj_camara.x, obj_camara.y, __x, __y) <= control.rango or object_index == obj_camara)
 	{
 		var _c = _color;
 		var _af = _alpha;
-		if (object_index != par_fondo)
+		if (object_index != par_fondo and !_poder and !_block)
 		{
 			if (control.estilo_actual == 2)
 			{
@@ -49,17 +49,24 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 				_spr1 = spr_cc2;
 			}
 		}
-		/*
-		if (control.estilo_actual == 1)
+		if (_poder)
 		{
-			var _aux = _spr2;
-			var _auxa = _alpha2;
-			_spr2 = _spr1;
-			_spr1 = _aux;
-			_alpha2 = _alpha1;
-			_alpha1 = _auxa;
+			if (control.estilo_actual == 2)
+			{
+				_spr2 = sprite_poder1;
+				_spr1 = sprite_poder3;
+			}
+			if (control.estilo_actual == 0)
+			{
+				_spr2 = sprite_poder2;
+				_spr1 = sprite_poder1;
+			}
+			if (control.estilo_actual == 1)
+			{
+				_spr2 = sprite_poder3;
+				_spr1 = sprite_poder2;
+			}
 		}
-		*/
 		#region tamaño
 		var _w1 = sprite_get_width(_spr1);
 		var _h1 = sprite_get_height(_spr1);
@@ -75,17 +82,18 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 		#endregion
 		#region variable
 		var _v1 = clamp( _linea_x - __x + _ww2, 0, _w1 );
+		var _v2 = clamp( _linea_x - _x2 + _ww2, 0, _w1 );
 		#endregion
 		#region transformation
 		var _lf1 = _v1;
 		var _lf2 = 0;
 		var _lw1 = _w1 - _v1;
-		var _lw2 = _v1;
+		var _lw2 = _v2;
 		#endregion
 		#region posición
 		var _px1 = __x - lengthdir_x(_ww2 * _sx, angulo_real) + lengthdir_x(_v1 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real-90);
 		var _py1 = __y - lengthdir_y(_ww2 * _sx, angulo_real) + lengthdir_y(_v1 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real-90);
-		var _px2 = __x - lengthdir_x(_ww2 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real - 90);
+		var _px2 = _x2 - lengthdir_x(_ww2 * _sx, angulo_real) - lengthdir_x(_hh2 * _sy, angulo_real - 90);
 		var _py2 = __y - lengthdir_y(_ww2 * _sx, angulo_real) - lengthdir_y(_hh2 * _sy, angulo_real - 90);
 		#endregion
 		draw_sprite_general(_spr1, _index, _lf1, 0, _lw1 , _h1, _px1, _py1, _sx, _sy, _an, _c, _c, _c, _c, _alpha1);

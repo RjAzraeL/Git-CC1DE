@@ -31,6 +31,9 @@ window_set_fullscreen(true);
 #macro zona_infierno 7
 #macro zona_pesadilla 8
 #macro zona_fabrica 9
+#macro estilo_cc1 0
+#macro estilo_ccr 1
+#macro estilo_scc 2
 #endregion
 
 #region partícula

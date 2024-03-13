@@ -5,6 +5,7 @@ image_speed = 0;
 image_index = 0;
 spr_cc1 = sprCC1zn1Enemie2;
 spr_cc2 = sprCCRzn1Enemie2;
+spr_cc3 = sprSCCzn1Enemie2;
 anchura_real = sprite_width;
 altura_real = sprite_height;
 ultima_direccion = 1;

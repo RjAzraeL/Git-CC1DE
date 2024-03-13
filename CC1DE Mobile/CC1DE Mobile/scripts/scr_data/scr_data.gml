@@ -166,4 +166,11 @@ function scr_pollo_dame_ccr(_id)
 	var _ind = asset_get_index(_string1 + _string2);
 	return (_ind == -1) ? sprCCRatkEgg : _ind;
 }
+function scr_pollo_dame_scc(_id)
+{
+	var _string1 = "sprSCCskin";
+	var _string2 = scr_dame_dato(control.data_pollo, _id, "nombre");
+	var _ind = asset_get_index(_string1 + _string2);
+	return (_ind == -1) ? sprCCRatkEgg : _ind;
+}
 #endregion

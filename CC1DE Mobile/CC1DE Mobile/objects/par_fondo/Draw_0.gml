@@ -16,10 +16,6 @@ if (control.estilo_actual == 2)
 }
 color_fondo_actual = color_fondo[estilo];
 color_fondo_viejo = color_fondo[estilo_viejo];
-fondo_velocidad[0] = _listavelocidad[estilo][| 0];
-fondo_velocidad[1] = _listavelocidad[estilo][| 1];
-fondo_velocidad[2] = _listavelocidad[estilo][| 2];
-fondo_velocidad[3] = _listavelocidad[estilo][| 3];
 var f_a = color_fondo_actual;
 var f_v = color_fondo_viejo;
 
@@ -66,18 +62,29 @@ for (var i = 0; i < 4; i++)
 		var _tope = ceil(room_width/_tamano_x);
 		for (var j = 0; j <= _tope; j++)
 		{
-			fondo_posicion[i] += fondo_velocidad[i];
-			if (fondo_posicion[i] >= _tamano_x)
+			var _velocidad = fondo_velocidad[estilo][i];
+			if (obj_camara.cambiando_estilo)
 			{
-				fondo_posicion[i] = 0;
+				_velocidad = 0;
 			}
-			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+fondo_posicion[i], _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2);
-			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j-(_tamano_x)+(fondo_posicion[i]), _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2);
+			var _velocidad2 = fondo_velocidad[estilo_viejo][i];
+			if (obj_camara.cambiando_estilo)
+			{
+				_velocidad2 = 0;
+			}
+			fondo_posicion[estilo][i] += _velocidad;
+			if (fondo_posicion[estilo][i] >= _tamano_x)
+			{
+				fondo_posicion[estilo][i] = 0;
+			}
+			fondo_posicion[estilo_viejo][i] += _velocidad2;
+			if (fondo_posicion[estilo_viejo][i] >= _tamano_x)
+			{
+				fondo_posicion[estilo_viejo][i] = 0;
+			}
+			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+fondo_posicion[estilo][i], _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
+			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j-(_tamano_x)+(fondo_posicion[estilo][i]), _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
 		}
 	}
 }
-draw_set_color(c_black);
-draw_text(mouse_x, mouse_y+16,"ea"+string(estilo));
-draw_text(mouse_x, mouse_y+32,"ev"+string(estilo_viejo));
-draw_set_color(c_white);
 #endregion

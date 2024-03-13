@@ -1,11 +1,12 @@
 #region linea
 if (cambio_valor < cambio_total and cambio_actual)
 {
+	cambiando_estilo = true;
 	cambio_valor += 10;
 	linea_x = scr_x() + cambio_valor;
 	if (cambio_valor >= cambio_total)
 	{
-		
+		cambiando_estilo = false;
 		linea_x = -64;
 		control.estilo_viejo = control.estilo_actual;
 		control.estilo_actual++;

@@ -24,6 +24,7 @@ escala_x_real = 0;
 escala_y_real = 0;
 angulo = 0;
 angulo_real = 0;
+spr_cc3 = scr_pollo_dame_scc(control.pollo_actual);
 spr_cc2 = scr_pollo_dame_ccr(control.pollo_actual);
 spr_cc1 = scr_pollo_dame_cc1(control.pollo_actual);
 indice = 0;

@@ -24,10 +24,13 @@ for (var i = 0 ; i < 4 ; i++)
 	fondo_posicion[i][3] = 0;
 }
 
-fondo_velocidad[0] = _listavelocidad[0][| 0];
-fondo_velocidad[1] = _listavelocidad[0][| 1];
-fondo_velocidad[2] = _listavelocidad[0][| 2];
-fondo_velocidad[3] = _listavelocidad[0][| 3];
+for (var i = 0 ; i < 4 ; i++)
+{
+	fondo_velocidad[i][0] = _listavelocidad[i][| 0];
+	fondo_velocidad[i][1] = _listavelocidad[i][| 1];
+	fondo_velocidad[i][2] = _listavelocidad[i][| 2];
+	fondo_velocidad[i][3] = _listavelocidad[i][| 3];
+}
 
 color_fondo_actual = c_white;
 escala_x_real = 1;

@@ -134,17 +134,44 @@ if (lastimado_enfriamiento > 0)
 scr_estado();
 #endregion
 #region índice
-if (indice_random > 0)
+if (control.estilo_actual != 2)
 {
-	indice_random--;
+	if (indice_random > 0)
+	{
+		indice_random--;
+	}
+	else
+	{
+		indice += .1;
+		if (indice >= 3.9)
+		{
+			indice = 0;
+			indice_random = irandom(300);
+		}
+	}
 }
 else
 {
-	indice += .1;
-	if (indice >= 3.9)
+	if (place_meeting(x, y+2, par_solido))
 	{
-		indice = 0;
-		indice_random = irandom(300);
+		if (indice_random > 0)
+		{
+			indice_random--;
+		}
+		else
+		{
+			indice += .1;
+			if (indice >= 1.9)
+			{
+				indice = 0;
+				indice_random = irandom(300);
+			}
+		}
+	}
+	else
+	{
+		indice_random = 0;
+		indice = 2;
 	}
 }
 #endregion
