@@ -20,12 +20,7 @@ for (var i = 0; i < image_xscale; i++)
 			var seed = _x + _y * 10000;
 			random_set_seed(seed);
 			var valor_random = irandom(3);
-			var _block = false;
-			if (control.estilo_actual == estilo_scc)
-			{
-				_block = true;
-			}
-			scr_dibujar(sprCC1zn0Block, spr_cc1, 32, 32, obj_camara.linea_x, _x, _y, valor_random, image_blend, image_alpha, escala_x_real, escala_y_real, image_alpha, image_alpha, 0, false);
+			scr_dibujar_bloque(32, 32, obj_camara.linea_x, _x, _y, valor_random);
 			if (obj_camara.linea_y > _y)
 			{
 				var _offset = 3;

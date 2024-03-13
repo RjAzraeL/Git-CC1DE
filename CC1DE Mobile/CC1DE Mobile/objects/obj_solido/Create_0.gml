@@ -17,5 +17,5 @@ scr_estilo_bloque();
 
 escala_x_real = 1;
 escala_y_real = 1;
-angulo_real = 0;		
+angulo_real = 0;
 #endregion

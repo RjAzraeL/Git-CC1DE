@@ -13,7 +13,10 @@
     "name":"Factory",
     "path":"folders/Objects/Factory.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_decoracion",
+    "path":"objects/par_decoracion/par_decoracion.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

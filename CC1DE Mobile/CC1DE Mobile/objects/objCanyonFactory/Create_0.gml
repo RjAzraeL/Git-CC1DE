@@ -1,6 +1,8 @@
 #region variable
+event_inherited();
 spr_cc1 = sprCC1znfCanyon;
 spr_cc2 = sprCCRznfCanyon;
+spr_cc3 = sprSCCznfCanyon;
 angulo_real = 0;
 escala_x_real = 1;
 escala_y_real = 1;
