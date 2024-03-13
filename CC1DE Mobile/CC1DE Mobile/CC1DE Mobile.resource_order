@@ -620,7 +620,7 @@
     {"name":"sprSCCzn1BlockLateralAlt","order":20,"path":"sprites/sprSCCzn1BlockLateralAlt/sprSCCzn1BlockLateralAlt.yy",},
     {"name":"sprSCCzn1BlockLow","order":17,"path":"sprites/sprSCCzn1BlockLow/sprSCCzn1BlockLow.yy",},
     {"name":"sprSCCzn1BlockUnder","order":19,"path":"sprites/sprSCCzn1BlockUnder/sprSCCzn1BlockUnder.yy",},
-    {"name":"sprSCCzn1Boss455","order":27,"path":"sprites/sprSCCzn1Boss455/sprSCCzn1Boss455.yy",},
+    {"name":"sprSCCzn1Boss","order":27,"path":"sprites/sprSCCzn1Boss/sprSCCzn1Boss.yy",},
     {"name":"sprSCCzn1Deco1","order":22,"path":"sprites/sprSCCzn1Deco1/sprSCCzn1Deco1.yy",},
     {"name":"sprSCCzn1Deco2","order":23,"path":"sprites/sprSCCzn1Deco2/sprSCCzn1Deco2.yy",},
     {"name":"sprSCCzn1Deco3","order":24,"path":"sprites/sprSCCzn1Deco3/sprSCCzn1Deco3.yy",},
