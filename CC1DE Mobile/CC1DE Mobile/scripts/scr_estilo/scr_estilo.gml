@@ -43,7 +43,7 @@ function scr_estilo_poder()
 		{
 			spr_cc1 = sprCC1atkShurikenGrass;
 			spr_cc2 = sprCCRatkShurikenGrass;
-			spr_cc3 = sprCCRatkShurikenGrass;
+			spr_cc3 = sprSCCatkShurikenGrass;
 			break;
 		}
 		case(zona_volcan):
