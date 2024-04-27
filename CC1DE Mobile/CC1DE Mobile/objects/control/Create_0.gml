@@ -11,7 +11,7 @@ vida = 5;
 resolucion_ancho = 854;
 resolucion_alto = 480;
 flama_tiempo = 0;
-pollo_actual = irandom_range(0,80);
+pollo_actual = 0;
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
 #endregion
