@@ -67,84 +67,161 @@ function scr_data_pollo()
 	/*02*/scr_data_crear_pollo("Animatronic", "", 0);
 	#macro pollo_animatronic 2
 	/*03*/scr_data_crear_pollo("Armor", "", 0);
+	#macro pollo_armor 3
 	/*04*/scr_data_crear_pollo("Booster", "", 0);
+	#macro pollo_booster 4
 	/*05*/scr_data_crear_pollo("Chica", "", 0);
+	#macro pollo_chica 5
 	/*06*/scr_data_crear_pollo("Chick", "", 0);
+	#macro pollo_chick 6
 	/*07*/scr_data_crear_pollo("Chird", "", 0);
+	#macro pollo_chird 7
 	/*08*/scr_data_crear_pollo("Cloudy", "", 0);
+	#macro pollo_cloudy 8
 	/*09*/scr_data_crear_pollo("Cow", "", 0);
+	#macro pollo_cow 9
 	/*10*/scr_data_crear_pollo("Dinami", "", 0);
+	#macro pollo_dinami 10
 	/*11*/scr_data_crear_pollo("Drago", "", 0);
+	#macro pollo_drago 11
 	/*12*/scr_data_crear_pollo("Egi", "", 0);
+	#macro pollo_egi 12
 	/*13*/scr_data_crear_pollo("Electron", "", 0);
+	#macro pollo_electron 13
 	/*14*/scr_data_crear_pollo("FBarce", "", 0);
+	#macro pollo_fBarce 14
 	/*15*/scr_data_crear_pollo("FNapoli", "", 0);
+	#macro pollo_fNapoli 15
 	/*16*/scr_data_crear_pollo("Fooster", "", 0);
+	#macro pollo_fooster 16
 	/*17*/scr_data_crear_pollo("FRealm", "", 0);
+	#macro pollo_fRealm 17
 	/*18*/scr_data_crear_pollo("FUni", "", 0);
+	#macro pollo_fUni 18
 	/*19*/scr_data_crear_pollo("Gallo", "", 0);
+	#macro pollo_gallo 19
 	/*20*/scr_data_crear_pollo("Gold", "", 0);
+	#macro pollo_gold 20
 	/*21*/scr_data_crear_pollo("Grassy", "", 0);
+	#macro pollo_grassy 21
 	/*22*/scr_data_crear_pollo("GreenVideoInc", "", 0);
+	#macro pollo_greenVideoInc 22
 	/*23*/scr_data_crear_pollo("Grey", "", 0);
+	#macro pollo_grey 23
 	/*24*/scr_data_crear_pollo("Hueva", "", 0);
+	#macro pollo_hueva 24
 	/*25*/scr_data_crear_pollo("Iguanard", "", 0);
+	#macro pollo_iguanard 25
 	/*26*/scr_data_crear_pollo("Invert", "", 0);
+	#macro pollo_invert 26
 	/*27*/scr_data_crear_pollo("Iris", "", 0);
+	#macro pollo_iris 27
 	/*28*/scr_data_crear_pollo("Jeff", "", 0);
+	#macro pollo_jeff 28
 	/*29*/scr_data_crear_pollo("Jhonatan", "", 0);
+	#macro pollo_jhonatan 29
 	/*30*/scr_data_crear_pollo("Law", "", 0);
+	#macro pollo_law 30
 	/*31*/scr_data_crear_pollo("LockHolm", "", 0);
+	#macro pollo_lockHolm 31
 	/*32*/scr_data_crear_pollo("Loko", "", 0);
+	#macro pollo_loko 32
 	/*33*/scr_data_crear_pollo("Looster", "", 0);
+	#macro pollo_looster 33
 	/*34*/scr_data_crear_pollo("Magma", "", 0);
+	#macro pollo_magma 34
 	/*35*/scr_data_crear_pollo("Mali", "", 0);
+	#macro pollo_mali 35
 	/*36*/scr_data_crear_pollo("Manic", "", 0);
+	#macro pollo_manic 36
 	/*37*/scr_data_crear_pollo("Max", "", 0);
+	#macro pollo_max 37
 	/*38*/scr_data_crear_pollo("McDuck", "", 0);
+	#macro pollo_mcDuck 38
 	/*39*/scr_data_crear_pollo("Meta", "", 0);
+	#macro pollo_meta 39
 	/*40*/scr_data_crear_pollo("MetaSoldier", "", 0);
+	#macro pollo_metaSoldier 40
 	/*41*/scr_data_crear_pollo("Monocrom", "", 0);
+	#macro pollo_monocrom 41
 	/*42*/scr_data_crear_pollo("Monster", "", 0);
+	#macro pollo_monster 42
 	/*43*/scr_data_crear_pollo("Nave", "", 0);
+	#macro pollo_nave 43
 	/*44*/scr_data_crear_pollo("NinjaCold", "", 0);
+	#macro pollo_ninjaCold 44
 	/*45*/scr_data_crear_pollo("Pencil", "", 0);
+	#macro pollo_pencil 45
 	/*46*/scr_data_crear_pollo("Pengu", "", 0);
+	#macro pollo_pengu 46
 	/*47*/scr_data_crear_pollo("Pollier", "", 0);
+	#macro pollo_pollier 47
 	/*48*/scr_data_crear_pollo("Pollisor", "", 0);
+	#macro pollo_pollisor 48
 	/*49*/scr_data_crear_pollo("Porki", "", 0);
+	#macro pollo_porki 49
 	/*50*/scr_data_crear_pollo("Rafa", "", 0);
+	#macro pollo_rafa 50
 	/*51*/scr_data_crear_pollo("Raro", "", 0);
+	#macro pollo_raro 51
 	/*52*/scr_data_crear_pollo("RickRoll", "", 0);
+	#macro pollo_rickRoll 52
 	/*53*/scr_data_crear_pollo("Rooster", "", 0);
+	#macro pollo_rooster 53
 	/*54*/scr_data_crear_pollo("ShiKen", "", 0);
+	#macro pollo_shiKen 54
 	/*55*/scr_data_crear_pollo("Silver", "", 0);
+	#macro pollo_silver 55
 	/*56*/scr_data_crear_pollo("Snick", "", 0);
+	#macro pollo_snick 56
 	/*57*/scr_data_crear_pollo("Snow", "", 0);
+	#macro pollo_snow 57
 	/*58*/scr_data_crear_pollo("Phantom", "", 0);
+	#macro pollo_phantom 58
 	/*59*/scr_data_crear_pollo("Toraishi", "", 0);
+	#macro pollo_toraishi 59
 	/*60*/scr_data_crear_pollo("Vio", "", 0);
+	#macro pollo_vio 60
 	/*61*/scr_data_crear_pollo("Voltio", "", 0);
+	#macro pollo_voltio 61
 	/*62*/scr_data_crear_pollo("Warrior", "", 0);
+	#macro pollo_warrior 62
 	/*63*/scr_data_crear_pollo("WarriorSuper", "", 0);
+	#macro pollo_warriorSuper 63
 	/*64*/scr_data_crear_pollo("Zeo", "", 0);
+	#macro pollo_zeo 64
 	/*65*/scr_data_crear_pollo("Zombie", "", 0);
+	#macro pollo_zombie 65
 	/*66*/scr_data_crear_pollo("Bjorn", "", 0);
+	#macro pollo_bjorn 66
 	/*67*/scr_data_crear_pollo("Boomy", "", 0);
+	#macro pollo_boomy 67
 	/*68*/scr_data_crear_pollo("Cay", "", 0);
+	#macro pollo_cay 68
 	/*69*/scr_data_crear_pollo("DerpSoul", "", 0);
+	#macro pollo_derpSoul 69
 	/*70*/scr_data_crear_pollo("Duncan", "", 0);
+	#macro pollo_duncan 70
 	/*71*/scr_data_crear_pollo("EasyEast", "", 0);
+	#macro pollo_easyEast 71
 	/*72*/scr_data_crear_pollo("Eustavio", "", 0);
+	#macro pollo_eustavio 72
 	/*73*/scr_data_crear_pollo("Gatarlos", "", 0);
+	#macro pollo_gatarlos 73
 	/*74*/scr_data_crear_pollo("Jabo", "", 0);
+	#macro pollo_jabo 74
 	/*75*/scr_data_crear_pollo("Miedo", "", 0);
+	#macro pollo_miedo 75
 	/*76*/scr_data_crear_pollo("Plumillas", "", 0);
+	#macro pollo_plumillas 76
 	/*77*/scr_data_crear_pollo("Polliro", "", 0);
+	#macro pollo_polliro 77
 	/*78*/scr_data_crear_pollo("Prisma", "", 0);
+	#macro pollo_prisma 78
 	/*79*/scr_data_crear_pollo("Robotop", "", 0);
+	#macro pollo_robotop 79
 	/*80*/scr_data_crear_pollo("Siul", "", 0);
-	
+	#macro pollo_siul 80
 	
 }
 function scr_data_crear_pollo( nombre, descripcion, precio)
