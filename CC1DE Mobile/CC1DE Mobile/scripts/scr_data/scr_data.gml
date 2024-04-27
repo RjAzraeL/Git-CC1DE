@@ -61,8 +61,11 @@ function scr_data_pollo()
 {
 	data_pollo = ds_list_create();
 	/*00*/scr_data_crear_pollo("Alien", "", 0);
+	#macro pollo_alien 0
 	/*01*/scr_data_crear_pollo("Angel", "", 0);
+	#macro pollo_angel 1
 	/*02*/scr_data_crear_pollo("Animatronic", "", 0);
+	#macro pollo_animatronic 2
 	/*03*/scr_data_crear_pollo("Armor", "", 0);
 	/*04*/scr_data_crear_pollo("Booster", "", 0);
 	/*05*/scr_data_crear_pollo("Chica", "", 0);

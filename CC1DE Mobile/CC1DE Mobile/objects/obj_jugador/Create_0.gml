@@ -7,7 +7,7 @@ vida = 5;
 estado = "parado";
 parpadeo_total = 120;
 parpadeo = 0;
-image_speed = 0.1;
+image_speed = 0;
 image_index = 0;
 movimiento_vertical = 0;
 ultima_direccion = 1;
@@ -31,6 +31,7 @@ indice = 0;
 indice_random = 5;
 flama_tiempo = 0;
 tengo_flama = (control.pollo_actual == 34);
+parpadear = false;
 #region controles
 joystick = 
 {

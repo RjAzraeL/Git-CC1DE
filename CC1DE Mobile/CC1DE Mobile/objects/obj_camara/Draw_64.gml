@@ -23,7 +23,10 @@ if (golpeado > 0)
 }
 if (keyboard_check(vk_f1))
 {
-	draw_text(64,64,instance_number(all));
-	draw_text(64,128,nombre);
+	var _i = 320;
+	draw_text(32,_i,instance_number(all));
+	draw_text(32,_i-32,nombre);
+	draw_text(32,_i-64,round(fps_real));
+	draw_text(32,_i-96,control.estilo_actual);
 }
 #endregion

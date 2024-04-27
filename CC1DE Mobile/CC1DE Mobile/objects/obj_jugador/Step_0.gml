@@ -134,7 +134,7 @@ if (lastimado_enfriamiento > 0)
 scr_estado();
 #endregion
 #region índice
-if (control.estilo_actual != 2)
+if (control.estilo_actual == estilo_cc1)
 {
 	if (indice_random > 0)
 	{
@@ -150,7 +150,30 @@ if (control.estilo_actual != 2)
 		}
 	}
 }
-else
+else if (control.estilo_actual == estilo_ccr)
+{
+	if (indice_random > 0)
+	{
+		parpadear = false;
+		indice_random--;
+	}
+	else
+	{
+		var _factor = (parpadear) ? -1 : 1;
+		indice += .25 * _factor;
+		if (indice >= 3.9 and !parpadear)
+		{
+			parpadear = true;
+		}
+		if (indice <= 0 and parpadear)
+		{
+			parpadear = false;
+			indice = 0;
+			indice_random = irandom(300);
+		}
+	}
+}
+else if (control.estilo_actual == estilo_scc)
 {
 	if (place_meeting(x, y+2, par_solido))
 	{
