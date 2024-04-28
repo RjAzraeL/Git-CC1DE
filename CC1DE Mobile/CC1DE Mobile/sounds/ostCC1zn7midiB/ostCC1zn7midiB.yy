@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"ostCC1zn7midiB",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":23.14424,
+  "name":"ostCC1zn7midiB",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ostCC1zn7midiB.ogg",
+  "type":0,
+  "volume":1.0,
+}

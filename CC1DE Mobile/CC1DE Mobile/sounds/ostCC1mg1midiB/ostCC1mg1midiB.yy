@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound1",
+  "%Name":"ostCC1mg1midiB",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"Sound1",
+  "duration":51.432697,
+  "name":"ostCC1mg1midiB",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"",
+  "soundFile":"ostCC1mg1midiB.ogg",
   "type":0,
   "volume":1.0,
 }
