@@ -16,6 +16,8 @@
     {"$GMSpriteFrame":"","%Name":"b25554d1-0f3c-42e6-aaf2-7852b9f1e167","name":"b25554d1-0f3c-42e6-aaf2-7852b9f1e167","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"e3ae04f6-38ea-408d-a3a4-e69e5ebe1c48","name":"e3ae04f6-38ea-408d-a3a4-e69e5ebe1c48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"8491a58e-0b40-4ec3-ba7a-93f93edee770","name":"8491a58e-0b40-4ec3-ba7a-93f93edee770","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a25334fa-f308-4998-a320-049b5153910f","name":"a25334fa-f308-4998-a320-049b5153910f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f383205f-a2ac-49fd-8ec7-dc0d37ba0549","name":"f383205f-a2ac-49fd-8ec7-dc0d37ba0549","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -52,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -83,6 +85,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8491a58e-0b40-4ec3-ba7a-93f93edee770","path":"sprites/spr_touch_estilo/spr_touch_estilo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3d88cca2-61c2-4166-bf3c-e11f948acf63","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a25334fa-f308-4998-a320-049b5153910f","path":"sprites/spr_touch_estilo/spr_touch_estilo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cb471ed2-b887-4517-b149-3ec7211f2847","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f383205f-a2ac-49fd-8ec7-dc0d37ba0549","path":"sprites/spr_touch_estilo/spr_touch_estilo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2e037cbb-5c86-4296-a0a0-922a4a6d6d3b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
