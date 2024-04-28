@@ -23,6 +23,7 @@
     {"name":"entidad","order":3,"path":"folders/Scripts/entidad.yy",},
     {"name":"estilo","order":6,"path":"folders/Scripts/estilo.yy",},
     {"name":"genérico","order":1,"path":"folders/Scripts/genérico.yy",},
+    {"name":"música","order":8,"path":"folders/Scripts/música.yy",},
     {"name":"miscelaneo","order":7,"path":"folders/Scripts/miscelaneo.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},

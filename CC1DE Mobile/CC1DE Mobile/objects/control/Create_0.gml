@@ -12,6 +12,9 @@ resolucion_ancho = 854;
 resolucion_alto = 480;
 flama_tiempo = 0;
 pollo_actual = 0;
+musica_index = ostCC1mg3midi;
+musica_iniciada = false;
+musica_codigo = 0;
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
 #endregion

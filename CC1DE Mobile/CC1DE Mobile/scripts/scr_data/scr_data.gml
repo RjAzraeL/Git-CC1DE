@@ -2,7 +2,9 @@ function scr_data()
 {
 	scr_data_pollo();
 	scr_data_zona();
+	scr_data_musica();
 }
+
 #region zona
 function scr_data_zona()
 {
@@ -252,5 +254,50 @@ function scr_pollo_dame_scc(_id)
 	var _string2 = scr_dame_dato(control.data_pollo, _id, "nombre");
 	var _ind = asset_get_index(_string1 + _string2);
 	return (_ind == -1) ? sprCCRatkEgg : _ind;
+}
+#endregion
+#region música
+function scr_data_musica()
+{
+	data_musica = ds_list_create();
+	/*00*/scr_data_crear_musica("Minigame1", scr_crear_lista(ostCC1mg1midiA, ostCC1mg1midiB));
+	#macro mus_minigame1 0
+	/*01*/scr_data_crear_musica("Minigame2", scr_crear_lista(ostCC1mg2midi));
+	#macro mus_minigame2 1
+	/*02*/scr_data_crear_musica("Minigame3", scr_crear_lista(ostCC1mg3midi));
+	#macro mus_minigame3 2
+	/*03*/scr_data_crear_musica("Menú", scr_crear_lista(ostCC1mn1midi));
+	#macro mus_menu 3
+	/*04*/scr_data_crear_musica("Opening1", scr_crear_lista(ostCC1op1midi));
+	#macro mus_opening1 4
+	/*05*/scr_data_crear_musica("Opening2", scr_crear_lista(ostCC1op2midiA, ostCC1op2midiB));
+	#macro mus_opening2 5
+	/*06*/scr_data_crear_musica("Zona1", scr_crear_lista(ostCC1zn1midiA, ostCC1zn1midiB));
+	#macro mus_zona1 6
+	/*07*/scr_data_crear_musica("Zona2", scr_crear_lista(ostCC1zn2midi));
+	#macro mus_zona2 7
+	/*08*/scr_data_crear_musica("Zona3", scr_crear_lista(ostCC1zn3midiA, ostCC1zn3midiB));
+	#macro mus_zona3 8
+	/*09*/scr_data_crear_musica("Zona4", scr_crear_lista(ostCC1zn4midi));
+	#macro mus_zona4 9
+	/*10*/scr_data_crear_musica("Zona5", scr_crear_lista(ostCC1zn5midiA, ostCC1zn5midiB));
+	#macro mus_zona5 10
+	/*11*/scr_data_crear_musica("Zona6", scr_crear_lista(ostCC1zn6midiA, ostCC1zn6midiB));
+	#macro mus_zona6 11
+	/*12*/scr_data_crear_musica("Zona7", scr_crear_lista(ostCC1zn7midiA, ostCC1zn7midiB));
+	#macro mus_zona7 12
+	/*13*/scr_data_crear_musica("Zona8", scr_crear_lista(ostCC1zn8midi));
+	#macro mus_zona8 13
+	/*14*/scr_data_crear_musica("Zona hogar", scr_crear_lista(ostCC1zncmidi));
+	#macro mus_zona_hogar 14
+	/*15*/scr_data_crear_musica("Zona fábrica", scr_crear_lista(ostCC1znfmidiA, ostCC1znfmidiB));
+	#macro mus_zona_fabrica 15
+}
+function scr_data_crear_musica(nombre, lista)
+{
+	var _paquete = ds_map_create();
+	_paquete[?"nombre"] = nombre;
+	_paquete[?"lista"] = lista;
+	ds_list_add(control.data_musica, _paquete);
 }
 #endregion

@@ -138,6 +138,7 @@ var _loop = false;
 var _speed = .1;
 var _limite = sprite_get_number(spr_cc2);
 var pollo = control.pollo_actual;
+var _retorno = true;
 ultima_imagen = false;
 ultima_dobleimagen = false;
 indice_dobleimagen += .1;
@@ -157,7 +158,7 @@ if (control.estilo_actual == estilo_cc1)
 	if (_loop)
 	{
 		indice += _speed;
-		if (indice >= _limite)
+		if (indice >= _limite-.1)
 		{
 			indice = 0;
 		}
@@ -171,7 +172,7 @@ if (control.estilo_actual == estilo_cc1)
 		else
 		{
 			indice += _speed;
-			if (indice >= _limite)
+			if (indice >= _limite-.1)
 			{
 				indice = 0;
 				indice_random = irandom(300);
@@ -182,11 +183,15 @@ if (control.estilo_actual == estilo_cc1)
 else if (control.estilo_actual == estilo_ccr)
 {
 	#region excepciones
-	if (pollo == pollo_angel)
+	if (pollo == pollo_angel or pollo == pollo_warriorSuper)
 	{
 		ultima_imagen = true;
 	}
-	if (pollo == pollo_electron)
+	if (pollo == pollo_greenVideoInc or pollo == pollo_mali or pollo == pollo_meta or pollo == pollo_snick)
+	{
+		_retorno = false;
+	}
+	if (pollo == pollo_electron or pollo == pollo_manic)
 	{
 		ultima_dobleimagen = true;
 	}
@@ -194,7 +199,7 @@ else if (control.estilo_actual == estilo_ccr)
 	{
 		_speed = .05;
 	}
-	if (pollo == pollo_dinami)
+	if (pollo == pollo_dinami or pollo == pollo_loko or pollo == pollo_nave or pollo == pollo_shiKen or pollo == pollo_toraishi or pollo == pollo_voltio)
 	{
 		_speed = .2;
 		_loop = true;
@@ -203,7 +208,7 @@ else if (control.estilo_actual == estilo_ccr)
 	if (_loop)
 	{
 		indice += _speed;
-		if (indice >= _limite)
+		if (indice >= _limite-.1)
 		{
 			indice = 0;
 		}
@@ -219,8 +224,13 @@ else if (control.estilo_actual == estilo_ccr)
 		{
 			var _factor = (parpadear) ? -1 : 1;
 			indice += .25 * _factor;
-			if (indice >= _limite-(ultima_imagen*1)-(ultima_dobleimagen*2) and !parpadear)
+			if (indice >= _limite-.1-(ultima_imagen*1)-(ultima_dobleimagen*2) and !parpadear)
 			{
+				if (!_retorno)
+				{
+					indice = 0;
+					indice_random = irandom(300);
+				}
 				parpadear = true;
 			}
 			if (indice <= 0 and parpadear)

@@ -23,11 +23,19 @@ function scr_estilo_bloque()
 		
 		if (control.estilo_actual == estilo_scc)
 		{
-			spr_cc3_alt = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockAlt");
-			spr_cc3_lat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateral");
-			spr_cc3_latlat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateralAlt");
-			spr_cc3_low = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLow");
-			spr_cc3_under = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockUnder");
+			//spr_cc3_alt = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockAlt");
+			//spr_cc3_lat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateral");
+			//spr_cc3_latlat = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLateralAlt");
+			//spr_cc3_low = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockLow");
+			//spr_cc3_under = asset_get_index("sprSCCzn"+string(control.zona_actual)+"BlockUnder");
+			spr_cc1 = asset_get_index("sprCC1zn1Block");
+			spr_cc2 = asset_get_index("sprCCRzn1Block");
+			spr_cc3 = asset_get_index("sprSCCzn1Block");
+			spr_cc3_alt = asset_get_index("sprSCCzn1BlockAlt");
+			spr_cc3_lat = asset_get_index("sprSCCzn1BlockLateral");
+			spr_cc3_latlat = asset_get_index("sprSCCzn1BlockLateralAlt");
+			spr_cc3_low = asset_get_index("sprSCCzn1BlockLow");
+			spr_cc3_under = asset_get_index("sprSCCzn1BlockUnder");
 		}
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_musica",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_musica",
+  "parent":{
+    "name":"música",
+    "path":"folders/Scripts/música.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

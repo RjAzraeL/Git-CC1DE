@@ -11,6 +11,7 @@ function scr_dibujar_bloque(_anchura, _altura, _linea_x , __x, __y, _index = ima
 	var _lateralalt = false;
 	var _under = false;
 	var _low = false;
+	var _lateral_spr = spr_cc3_lat;
 	if (control.estilo_actual == 2)
 	{
 		_spr2 = spr_cc1;
