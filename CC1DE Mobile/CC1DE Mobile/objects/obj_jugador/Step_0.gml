@@ -134,42 +134,101 @@ if (lastimado_enfriamiento > 0)
 scr_estado();
 #endregion
 #region índice
+var _loop = false;
+var _speed = .1;
+var _limite = sprite_get_number(spr_cc2);
+var pollo = control.pollo_actual;
+ultima_imagen = false;
+ultima_dobleimagen = false;
+indice_dobleimagen += .1;
+if (indice_dobleimagen >= 1.9)
+{
+	indice_dobleimagen = 0;
+}
 if (control.estilo_actual == estilo_cc1)
 {
-	if (indice_random > 0)
+	#region excepciones
+	if (pollo == pollo_dinami or pollo == pollo_loko)
 	{
-		indice_random--;
+		_loop = true;
+		_speed = .2;
+	}
+	#endregion
+	if (_loop)
+	{
+		indice += _speed;
+		if (indice >= _limite)
+		{
+			indice = 0;
+		}
 	}
 	else
 	{
-		indice += .1;
-		if (indice >= 3.9)
+		if (indice_random > 0)
 		{
-			indice = 0;
-			indice_random = irandom(300);
+			indice_random--;
+		}
+		else
+		{
+			indice += _speed;
+			if (indice >= _limite)
+			{
+				indice = 0;
+				indice_random = irandom(300);
+			}
 		}
 	}
 }
 else if (control.estilo_actual == estilo_ccr)
 {
-	if (indice_random > 0)
+	#region excepciones
+	if (pollo == pollo_angel)
 	{
-		parpadear = false;
-		indice_random--;
+		ultima_imagen = true;
+	}
+	if (pollo == pollo_electron)
+	{
+		ultima_dobleimagen = true;
+	}
+	if (pollo == pollo_animatronic or pollo == pollo_easyEast)
+	{
+		_speed = .05;
+	}
+	if (pollo == pollo_dinami)
+	{
+		_speed = .2;
+		_loop = true;
+	}
+	#endregion
+	if (_loop)
+	{
+		indice += _speed;
+		if (indice >= _limite)
+		{
+			indice = 0;
+		}
 	}
 	else
 	{
-		var _factor = (parpadear) ? -1 : 1;
-		indice += .25 * _factor;
-		if (indice >= 3.9 and !parpadear)
-		{
-			parpadear = true;
-		}
-		if (indice <= 0 and parpadear)
+		if (indice_random > 0)
 		{
 			parpadear = false;
-			indice = 0;
-			indice_random = irandom(300);
+			indice_random--;
+		}
+		else
+		{
+			var _factor = (parpadear) ? -1 : 1;
+			indice += .25 * _factor;
+			if (indice >= _limite-(ultima_imagen*1)-(ultima_dobleimagen*2) and !parpadear)
+			{
+				parpadear = true;
+			}
+			if (indice <= 0 and parpadear)
+			{
+				parpadear = false;
+				indice = 0;
+				indice_random = irandom(300);
+			}
 		}
 	}
 }

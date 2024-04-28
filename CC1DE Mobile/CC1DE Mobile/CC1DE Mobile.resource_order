@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"Extension","order":12,"path":"folders/Extension.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"FX","order":11,"path":"folders/FX.yy",},
-    {"name":"Extension","order":12,"path":"folders/Extension.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Factory","order":26,"path":"folders/Objects/Factory.yy",},
     {"name":"Home","order":23,"path":"folders/Objects/Home.yy",},
