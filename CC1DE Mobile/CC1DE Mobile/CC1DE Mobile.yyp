@@ -197,6 +197,7 @@
     {"id":{"name":"scr_reiniciar_juego","path":"scripts/scr_reiniciar_juego/scr_reiniciar_juego.yy",},},
     {"id":{"name":"scr_temblor","path":"scripts/scr_temblor/scr_temblor.yy",},},
     {"id":{"name":"scr_texto","path":"scripts/scr_texto/scr_texto.yy",},},
+    {"id":{"name":"scr_musica","path":"scripts/scr_musica/scr_musica.yy",},},
     {"id":{"name":"ostCC1mg1midiA","path":"sounds/ostCC1mg1midiA/ostCC1mg1midiA.yy",},},
     {"id":{"name":"ostCC1mg1midiB","path":"sounds/ostCC1mg1midiB/ostCC1mg1midiB.yy",},},
     {"id":{"name":"ostCC1mg2midi","path":"sounds/ostCC1mg2midi/ostCC1mg2midi.yy",},},

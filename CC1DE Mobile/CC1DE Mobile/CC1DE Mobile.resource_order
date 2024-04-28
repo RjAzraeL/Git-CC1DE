@@ -157,6 +157,7 @@
     {"name":"scr_probable","order":9,"path":"scripts/scr_probable/scr_probable.yy",},
     {"name":"scr_reiniciar_juego","order":10,"path":"scripts/scr_reiniciar_juego/scr_reiniciar_juego.yy",},
     {"name":"scr_texto","order":11,"path":"scripts/scr_texto/scr_texto.yy",},
+    {"name":"scr_musica","order":1,"path":"scripts/scr_musica/scr_musica.yy",},
     {"name":"ostCC1mg1midiB","order":1,"path":"sounds/ostCC1mg1midiB/ostCC1mg1midiB.yy",},
     {"name":"ostCC1mg2midi","order":2,"path":"sounds/ostCC1mg2midi/ostCC1mg2midi.yy",},
     {"name":"ostCC1mg3midi","order":5,"path":"sounds/ostCC1mg3midi/ostCC1mg3midi.yy",},

@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprSCCzn4Background1",
   "bboxMode":0,
-  "bbox_bottom":239,
+  "bbox_bottom":959,
   "bbox_left":0,
   "bbox_right":519,
   "bbox_top":0,
