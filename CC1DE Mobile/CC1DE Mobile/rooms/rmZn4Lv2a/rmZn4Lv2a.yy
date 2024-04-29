@@ -86,7 +86,7 @@
   "name":"rmZn4Lv2a",
   "parent":{
     "name":"Zn4 Desert",
-    "path":"folders/Rooms/Zn4 Desert.yy",
+    "path":"folders/Niveles/Zn4 Desert.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

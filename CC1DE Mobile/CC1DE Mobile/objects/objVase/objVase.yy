@@ -9,8 +9,8 @@
   "name":"objVase",
   "overriddenProperties":[],
   "parent":{
-    "name":"Home",
-    "path":"folders/Objects/Home.yy",
+    "name":"Hogar",
+    "path":"folders/Objetos/Hogar.yy",
   },
   "parentObjectId":{
     "name":"par_decoracion",

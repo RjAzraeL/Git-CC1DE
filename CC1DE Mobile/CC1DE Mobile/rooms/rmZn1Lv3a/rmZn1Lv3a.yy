@@ -151,7 +151,7 @@
   "name":"rmZn1Lv3a",
   "parent":{
     "name":"Zn1 Field",
-    "path":"folders/Rooms/Zn1 Field.yy",
+    "path":"folders/Niveles/Zn1 Field.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

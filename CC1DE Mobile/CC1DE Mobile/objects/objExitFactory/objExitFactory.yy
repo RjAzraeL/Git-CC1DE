@@ -9,8 +9,8 @@
   "name":"objExitFactory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Factory",
-    "path":"folders/Objects/Factory.yy",
+    "name":"Fabrica",
+    "path":"folders/Objetos/Fabrica.yy",
   },
   "parentObjectId":{
     "name":"par_decoracion",

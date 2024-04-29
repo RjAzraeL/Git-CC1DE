@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"Zn0 Home",
-    "path":"folders/Sprites/Levels/Zn0 Home.yy",
+    "path":"folders/Visual/Levels/Zn0 Home.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

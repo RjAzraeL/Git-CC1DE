@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"Attacks",
-    "path":"folders/Sprites/Attacks.yy",
+    "path":"folders/Visual/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -40,7 +40,7 @@
   "name":"rm_campo_6",
   "parent":{
     "name":"*Obsolet*",
-    "path":"folders/Rooms/*Obsolet*.yy",
+    "path":"folders/Niveles/*Obsolet*.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

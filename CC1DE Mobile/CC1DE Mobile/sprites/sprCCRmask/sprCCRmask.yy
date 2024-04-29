@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Skins",
-    "path":"folders/Sprites/Skins.yy",
+    "path":"folders/Visual/Skins.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

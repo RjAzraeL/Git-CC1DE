@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Zn3 Sky",
-    "path":"folders/Sprites/Levels/Zn3 Sky.yy",
+    "path":"folders/Visual/Levels/Zn3 Sky.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

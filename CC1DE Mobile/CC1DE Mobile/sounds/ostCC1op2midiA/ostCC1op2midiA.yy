@@ -12,8 +12,8 @@
   "duration":6.0,
   "name":"ostCC1op2midiA",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Audio",
+    "path":"folders/Audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

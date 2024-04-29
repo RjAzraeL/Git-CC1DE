@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Zn4 Desert",
-    "path":"folders/Sprites/Levels/Zn4 Desert.yy",
+    "path":"folders/Visual/Levels/Zn4 Desert.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

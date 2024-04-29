@@ -6,7 +6,7 @@
   "name":"scr_musica",
   "parent":{
     "name":"data",
-    "path":"folders/Scripts/data.yy",
+    "path":"folders/Codigos/data.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

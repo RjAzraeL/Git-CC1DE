@@ -6,7 +6,7 @@
   "name":"scr_generar_flama",
   "parent":{
     "name":"miscelaneo",
-    "path":"folders/Scripts/miscelaneo.yy",
+    "path":"folders/Codigos/miscelaneo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

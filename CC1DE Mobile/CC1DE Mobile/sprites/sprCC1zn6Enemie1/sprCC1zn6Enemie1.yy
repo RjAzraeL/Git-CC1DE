@@ -27,7 +27,7 @@
   "origin":9,
   "parent":{
     "name":"Zn6 Cave",
-    "path":"folders/Sprites/Levels/Zn6 Cave.yy",
+    "path":"folders/Visual/Levels/Zn6 Cave.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

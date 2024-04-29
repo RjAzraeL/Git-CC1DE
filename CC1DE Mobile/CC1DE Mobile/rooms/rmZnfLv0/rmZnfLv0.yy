@@ -37,7 +37,7 @@
   "name":"rmZnfLv0",
   "parent":{
     "name":"Znf Factory",
-    "path":"folders/Rooms/Znf Factory.yy",
+    "path":"folders/Niveles/Znf Factory.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

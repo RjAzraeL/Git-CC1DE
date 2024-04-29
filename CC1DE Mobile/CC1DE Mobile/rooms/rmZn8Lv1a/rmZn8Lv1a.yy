@@ -32,7 +32,7 @@
   "name":"rmZn8Lv1a",
   "parent":{
     "name":"Zn8 Nightmare",
-    "path":"folders/Rooms/Zn8 Nightmare.yy",
+    "path":"folders/Niveles/Zn8 Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

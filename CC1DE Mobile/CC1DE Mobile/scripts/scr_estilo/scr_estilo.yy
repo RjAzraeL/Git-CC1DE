@@ -6,7 +6,7 @@
   "name":"scr_estilo",
   "parent":{
     "name":"estilo",
-    "path":"folders/Scripts/estilo.yy",
+    "path":"folders/Codigos/estilo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

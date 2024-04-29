@@ -222,7 +222,7 @@
   "name":"rmZn6Lv4a",
   "parent":{
     "name":"Zn6 Cave",
-    "path":"folders/Rooms/Zn6 Cave.yy",
+    "path":"folders/Niveles/Zn6 Cave.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

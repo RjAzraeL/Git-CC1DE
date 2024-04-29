@@ -12,8 +12,8 @@
   "name":"par_pollo_enemigo",
   "overriddenProperties":[],
   "parent":{
-    "name":"padres",
-    "path":"folders/Objects/padres.yy",
+    "name":"Padres",
+    "path":"folders/Objetos/Padres.yy",
   },
   "parentObjectId":{
     "name":"par_pollo",

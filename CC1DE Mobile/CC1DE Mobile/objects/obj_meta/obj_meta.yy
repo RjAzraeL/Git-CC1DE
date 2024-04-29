@@ -9,8 +9,8 @@
   "name":"obj_meta",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Juego",
+    "path":"folders/Objetos/Juego.yy",
   },
   "parentObjectId":{
     "name":"par_decoracion",

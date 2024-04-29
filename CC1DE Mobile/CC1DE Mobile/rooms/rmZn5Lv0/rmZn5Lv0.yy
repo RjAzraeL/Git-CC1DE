@@ -28,7 +28,7 @@
   "name":"rmZn5Lv0",
   "parent":{
     "name":"Zn5 Snowfall",
-    "path":"folders/Rooms/Zn5 Snowfall.yy",
+    "path":"folders/Niveles/Zn5 Snowfall.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

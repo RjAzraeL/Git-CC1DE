@@ -8,8 +8,8 @@
   "name":"par_lastimar",
   "overriddenProperties":[],
   "parent":{
-    "name":"padres",
-    "path":"folders/Objects/padres.yy",
+    "name":"Padres",
+    "path":"folders/Objetos/Padres.yy",
   },
   "parentObjectId":{
     "name":"par_entidad",

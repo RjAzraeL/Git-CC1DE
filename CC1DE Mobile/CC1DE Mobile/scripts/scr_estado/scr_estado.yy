@@ -6,7 +6,7 @@
   "name":"scr_estado",
   "parent":{
     "name":"entidad",
-    "path":"folders/Scripts/entidad.yy",
+    "path":"folders/Codigos/entidad.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

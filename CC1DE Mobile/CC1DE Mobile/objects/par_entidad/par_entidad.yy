@@ -8,8 +8,8 @@
   "name":"par_entidad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Juego",
+    "path":"folders/Objetos/Juego.yy",
   },
   "parentObjectId":null,
   "persistent":false,

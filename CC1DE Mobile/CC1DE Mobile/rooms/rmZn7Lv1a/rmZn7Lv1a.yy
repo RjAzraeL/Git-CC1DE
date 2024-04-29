@@ -78,7 +78,7 @@
   "name":"rmZn7Lv1a",
   "parent":{
     "name":"Zn7 Inferno",
-    "path":"folders/Rooms/Zn7 Inferno.yy",
+    "path":"folders/Niveles/Zn7 Inferno.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

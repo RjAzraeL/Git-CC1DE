@@ -29,7 +29,7 @@
   "name":"rmZn2Lv0",
   "parent":{
     "name":"Zn2 Volcano",
-    "path":"folders/Rooms/Zn2 Volcano.yy",
+    "path":"folders/Niveles/Zn2 Volcano.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

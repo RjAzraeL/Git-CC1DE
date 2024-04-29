@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"Zn7 Inferno",
-    "path":"folders/Sprites/Levels/Zn7 Inferno.yy",
+    "path":"folders/Visual/Levels/Zn7 Inferno.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

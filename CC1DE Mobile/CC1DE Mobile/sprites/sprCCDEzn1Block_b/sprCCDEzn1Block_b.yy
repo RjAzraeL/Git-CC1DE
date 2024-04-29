@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"*Obsolet*",
-    "path":"folders/Sprites/*Obsolet*.yy",
+    "path":"folders/Visual/*Obsolet*.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

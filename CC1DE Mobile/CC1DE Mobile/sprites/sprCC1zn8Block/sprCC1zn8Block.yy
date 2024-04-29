@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Zn8 Nightmare",
-    "path":"folders/Sprites/Levels/Zn8 Nightmare.yy",
+    "path":"folders/Visual/Levels/Zn8 Nightmare.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

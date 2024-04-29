@@ -6,8 +6,8 @@
   "name":"objBarbs",
   "overriddenProperties":[],
   "parent":{
-    "name":"Factory",
-    "path":"folders/Objects/Factory.yy",
+    "name":"Fabrica",
+    "path":"folders/Objetos/Fabrica.yy",
   },
   "parentObjectId":{
     "name":"obj_pinchos",

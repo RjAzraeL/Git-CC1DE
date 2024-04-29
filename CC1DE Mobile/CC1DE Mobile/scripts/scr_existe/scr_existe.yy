@@ -6,7 +6,7 @@
   "name":"scr_existe",
   "parent":{
     "name":"genérico",
-    "path":"folders/Scripts/genérico.yy",
+    "path":"folders/Codigos/genérico.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

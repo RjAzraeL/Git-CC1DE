@@ -9,8 +9,8 @@
   "name":"obj_enemigo_jefe_campo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Juego",
+    "path":"folders/Objetos/Juego.yy",
   },
   "parentObjectId":{
     "name":"par_pollo_jefe",

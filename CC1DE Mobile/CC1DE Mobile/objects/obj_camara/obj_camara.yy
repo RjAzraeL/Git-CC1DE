@@ -11,8 +11,8 @@
   "name":"obj_camara",
   "overriddenProperties":[],
   "parent":{
-    "name":"padres",
-    "path":"folders/Objects/padres.yy",
+    "name":"Padres",
+    "path":"folders/Objetos/Padres.yy",
   },
   "parentObjectId":null,
   "persistent":false,

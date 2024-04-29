@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Znf Factory",
-    "path":"folders/Sprites/Levels/Znf Factory.yy",
+    "path":"folders/Visual/Levels/Znf Factory.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -10,8 +10,8 @@
   "name":"obj_poder_huevo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Juego",
+    "path":"folders/Objetos/Juego.yy",
   },
   "parentObjectId":{
     "name":"par_poder",

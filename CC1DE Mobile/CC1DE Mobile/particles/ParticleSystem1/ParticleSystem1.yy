@@ -13,8 +13,8 @@
   ],
   "name":"ParticleSystem1",
   "parent":{
-    "name":"FX",
-    "path":"folders/FX.yy",
+    "name":"Particulas",
+    "path":"folders/Particulas.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

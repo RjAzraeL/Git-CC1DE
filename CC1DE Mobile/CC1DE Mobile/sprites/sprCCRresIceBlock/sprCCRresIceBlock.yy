@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Resource",
-    "path":"folders/Sprites/Resource.yy",
+    "path":"folders/Visual/Resource.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

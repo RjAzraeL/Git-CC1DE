@@ -12,8 +12,8 @@
   "duration":23.14424,
   "name":"ostCC1zn7midiB",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Audio",
+    "path":"folders/Audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

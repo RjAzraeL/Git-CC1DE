@@ -114,7 +114,7 @@
   "name":"rmZn3Lv3a",
   "parent":{
     "name":"Zn3 Sky",
-    "path":"folders/Rooms/Zn3 Sky.yy",
+    "path":"folders/Niveles/Zn3 Sky.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

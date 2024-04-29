@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Efectos",
+    "path":"folders/Efectos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

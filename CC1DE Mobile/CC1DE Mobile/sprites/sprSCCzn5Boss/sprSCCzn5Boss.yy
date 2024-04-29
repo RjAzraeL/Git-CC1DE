@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"Zn5 Snowfall",
-    "path":"folders/Sprites/Levels/Zn5 Snowfall.yy",
+    "path":"folders/Visual/Levels/Zn5 Snowfall.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

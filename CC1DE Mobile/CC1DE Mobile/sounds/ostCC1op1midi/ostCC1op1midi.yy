@@ -12,8 +12,8 @@
   "duration":214.11537,
   "name":"ostCC1op1midi",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Audio",
+    "path":"folders/Audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

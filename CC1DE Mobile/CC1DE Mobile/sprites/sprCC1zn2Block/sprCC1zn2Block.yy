@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"Zn2 Volcano",
-    "path":"folders/Sprites/Levels/Zn2 Volcano.yy",
+    "path":"folders/Visual/Levels/Zn2 Volcano.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

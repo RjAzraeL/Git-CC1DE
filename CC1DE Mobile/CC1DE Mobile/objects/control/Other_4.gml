@@ -1,5 +1,8 @@
 #region crear cámara
-instance_create_depth( obj_jugador.x, obj_jugador.y, depth+5, obj_camara);
+if (scr_existe(obj_jugador))
+{
+	instance_create_depth( obj_jugador.x, obj_jugador.y, depth+5, obj_camara);
+}
 #endregion
 #region rango
 rango = 1500;
@@ -11,6 +14,12 @@ if (control.zona_actual == zona_hogar)
 #region música
 switch (room)
 {
+	case(rmSelector):
+	{
+		instance_create_layer(0, 0, "Instances", obj_selector);
+		scr_musica(mus_menu);
+		break;
+	}
 	case(rmZn0Home):
 	{
 		scr_musica(mus_zona_hogar);

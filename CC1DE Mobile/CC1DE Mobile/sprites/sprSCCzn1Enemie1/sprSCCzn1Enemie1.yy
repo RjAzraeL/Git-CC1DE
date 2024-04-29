@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"Zn1 Field",
-    "path":"folders/Sprites/Levels/Zn1 Field.yy",
+    "path":"folders/Visual/Levels/Zn1 Field.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
