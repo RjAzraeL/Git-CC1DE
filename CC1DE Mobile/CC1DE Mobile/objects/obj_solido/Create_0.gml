@@ -12,9 +12,7 @@ spr_cc3_lat = sprSCCzn1BlockLateral;
 spr_cc3_latlat = sprSCCzn1BlockLateralAlt;
 spr_cc3_low = sprSCCzn1BlockLow;
 spr_cc3_under = sprSCCzn1BlockUnder;
-
 scr_estilo_bloque();
-
 escala_x_real = 1;
 escala_y_real = 1;
 angulo_real = 0;
