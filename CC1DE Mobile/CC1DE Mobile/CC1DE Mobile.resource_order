@@ -713,7 +713,6 @@
     {"name":"sprSCCzn1BlockLow","order":22,"path":"sprites/sprSCCzn1BlockLow/sprSCCzn1BlockLow.yy",},
     {"name":"sprSCCzn1BlockUnder","order":23,"path":"sprites/sprSCCzn1BlockUnder/sprSCCzn1BlockUnder.yy",},
     {"name":"sprSCCzn1Boss","order":24,"path":"sprites/sprSCCzn1Boss/sprSCCzn1Boss.yy",},
-    {"name":"sprSCCzn1Boss558567","order":16,"path":"sprites/sprSCCzn1Boss558567/sprSCCzn1Boss558567.yy",},
     {"name":"sprSCCzn1Deco1","order":25,"path":"sprites/sprSCCzn1Deco1/sprSCCzn1Deco1.yy",},
     {"name":"sprSCCzn1Deco2","order":26,"path":"sprites/sprSCCzn1Deco2/sprSCCzn1Deco2.yy",},
     {"name":"sprSCCzn1Deco3","order":27,"path":"sprites/sprSCCzn1Deco3/sprSCCzn1Deco3.yy",},
