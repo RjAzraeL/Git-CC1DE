@@ -60,17 +60,18 @@ for (var i = 0; i < 4; i++)
 		var _tamano_y2 = sprite_get_height(fondo2);
 		var _tamano_yy2 = _tamano_y2/2;
 		var _tope = ceil(room_width/_tamano_x);
+		var parallax_factor = 1 - ((i + 1) / 4);
 		for (var j = 0; j <= _tope; j++)
 		{
 			var _velocidad = fondo_velocidad[estilo][i];
 			if (obj_camara.cambiando_estilo)
 			{
-				_velocidad = 0;
+				//_velocidad = 0;
 			}
 			var _velocidad2 = fondo_velocidad[estilo_viejo][i];
 			if (obj_camara.cambiando_estilo)
 			{
-				_velocidad2 = 0;
+				//_velocidad2 = 0;
 			}
 			fondo_posicion[estilo][i] += _velocidad;
 			if (fondo_posicion[estilo][i] >= _tamano_x)
@@ -82,8 +83,18 @@ for (var i = 0; i < 4; i++)
 			{
 				fondo_posicion[estilo_viejo][i] = 0;
 			}
-			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j+fondo_posicion[estilo][i], _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
-			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _tamano_x*j-(_tamano_x)+(fondo_posicion[estilo][i]), _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
+			if (_velocidad == 0)
+			{
+				fondo_posicion[estilo][i] = scr_x() * parallax_factor;
+			}
+			if (_velocidad2 == 0)
+			{
+				fondo_posicion[estilo_viejo][i] = scr_x() * parallax_factor;
+			}
+			var _x1 = (_tamano_x*j+fondo_posicion[estilo][i]);
+			var _x2 = (_tamano_x*j-(_tamano_x)+fondo_posicion[estilo][i]);
+			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _x1, _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
+			scr_dibujar(fondo1, fondo2, _tamano_x, _tamano_y, obj_camara.linea_x, _x2, _tamano_yy2, image_index, image_blend, image_alpha, image_xscale, image_yscale, _alpha1, _alpha2, _tamano_x*j+fondo_posicion[estilo_viejo][i]);
 		}
 	}
 }

@@ -15,4 +15,5 @@ if (mouse_x > room_width/2 + 64 and posicion < total_zonas-1)
 	}
 	posicion++;
 }
+nombre_zona = scr_dame_dato(control.data_zona, posicion, "nombre");
 #endregion
