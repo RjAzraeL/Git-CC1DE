@@ -42,49 +42,49 @@ function scr_estilo_poder()
 		{
 			spr_cc1 = sprCC1atkShurikenFire;
 			spr_cc2 = sprCCRatkShurikenFire;
-			spr_cc3 = sprCCRatkShurikenFire;
+			spr_cc3 = sprSCCatkShurikenFire;
 			break;
 		}
 		case(zona_cielo):
 		{
 			spr_cc1 = sprCC1atkShurikenFrozen;
 			spr_cc2 = sprCCRatkShurikenFrozen;
-			spr_cc3 = sprCCRatkShurikenFrozen;
+			spr_cc3 = sprSCCatkShurikenFrozen;
 			break;
 		}
 		case(zona_desierto):
 		{
 			spr_cc1 = sprCC1atkShurikenDesert;
 			spr_cc2 = sprCCRatkShurikenDesert;
-			spr_cc3 = sprCCRatkShurikenDesert;
+			spr_cc3 = sprSCCatkShurikenDesert;
 			break;
 		}
 		case(zona_nevada):
 		{
 			spr_cc1 = sprCC1atkShurikenFrozen;
 			spr_cc2 = sprCCRatkShurikenFrozen;
-			spr_cc3 = sprCCRatkShurikenFrozen;
+			spr_cc3 = sprSCCatkShurikenFrozen;
 			break;
 		}
 		case(zona_cueva):
 		{
 			spr_cc1 = sprCC1atkShurikenFrozen;
 			spr_cc2 = sprCCRatkShurikenFrozen;
-			spr_cc3 = sprCCRatkShurikenFrozen;
+			spr_cc3 = sprSCCatkShurikenFrozen;
 			break;
 		}
 		case(zona_infierno):
 		{
 			spr_cc1 = sprCC1atkEggFire;
 			spr_cc2 = sprCC1atkEggFire;
-			spr_cc3 = sprCC1atkEggFire;
+			spr_cc3 = sprSCCatkEggFire;
 			break;
 		}
 		case(zona_pesadilla):
 		{
 			spr_cc1 = sprCC1atkEggDark;
 			spr_cc2 = sprCC1atkEggDark;
-			spr_cc3 = sprCC1atkEggDark;
+			spr_cc3 = sprSCCatkEggDark;
 			break;
 		}
 	}
