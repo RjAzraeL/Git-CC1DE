@@ -3,6 +3,7 @@ function scr_data()
 	scr_data_pollo();
 	scr_data_zona();
 	scr_data_musica();
+	scr_data_poder();
 }
 
 #region zona
@@ -300,5 +301,42 @@ function scr_data_crear_musica(nombre, lista)
 	_paquete[?"nombre"] = nombre;
 	_paquete[?"lista"] = lista;
 	ds_list_add(control.data_musica, _paquete);
+}
+#endregion
+#region poder
+function scr_data_poder()
+{
+	data_poder = scr_crear_lista();
+	/*00*/ scr_data_crear_poder("Huevo duro", "El huevo que todo aventurero debería tener.", 5, 1, scr_crear_lista(sprCC1atkEgg, sprCCRatkEgg, sprSCCatkEgg), -1);
+	#macro poder_huevo 0
+	/*01*/ scr_data_crear_poder("Huevoscuro", "Se unió al lado oscuro.", 6, 1, scr_crear_lista(sprCC1atkEggDark, sprCC1atkEggDark, sprSCCatkEggDark), -1);
+	#macro poder_oscuro 1
+	/*02*/ scr_data_crear_poder("Huevo quemado", "Se quemó un poco.", 5, 1, scr_crear_lista(sprCC1atkEggFire, sprCC1atkEggFire, sprSCCatkEggFire), -1);
+	#macro poder_quemado 2
+	/*03*/ scr_data_crear_poder("Huevo helado", "Se quedó mucho tiempo en la heladera.", 5, 1, scr_crear_lista(sprCC1atkEggFrozen, sprCCRatkEggFrozen, sprSCCatkEggFrozen), -1);
+	#macro poder_helado 3
+	/*04*/ scr_data_crear_poder("Huevo rocoso", "Esto no lo puso una gallina.", 5, 1, scr_crear_lista(sprCC1atkEggRock, sprCC1atkEggRock, sprSCCatkEggRock), -1);
+	#macro poder_rocoso 4
+	/*05*/ scr_data_crear_poder("Huevo podrido", "El huevo que todo aventurero debería tener", 5, 1, scr_crear_lista(sprCC1atkEggRotten, sprCCRatkEggRotten, sprSCCatkEggRotten), -1);
+	#macro poder_podrido 5
+	/*06*/ scr_data_crear_poder("Huevo rayo", "El huevo que todo aventurero debería tener", 5, 1, scr_crear_lista(sprCC1atkEggThunder, sprCC1atkEggThunder, sprSCCatkEggThunder), -1);
+	#macro poder_rayo 6
+	/*07*/ scr_data_crear_poder("Huevo tóxico", "El huevo que todo aventurero debería tener", 5, 1, scr_crear_lista(sprCC1atkEggToxic, sprCC1atkEggToxic, sprSCCatkEggToxic), -1);
+	#macro poder_toxico 7
+	/*08*/ scr_data_crear_poder("Huevo místico", "El huevo que todo aventurero debería tener", 5, 1, scr_crear_lista(sprCC1atkMysticalWave, sprCCRatkMysticalWave, sprSCCatkMysticalWave), -1);
+	#macro poder_mistico 8
+	/*09*/ scr_data_crear_poder("Huevo shuriken", "El huevo que todo aventurero debería tener", 7, 1, scr_crear_lista(sprCC1atkShuriken, sprCCRatkShuriken, sprSCCatkShuriken), -1);
+	#macro poder_shuriken 9
+}
+function scr_data_crear_poder(nombre, descripcion, velocidad, poder, sprite, especial)
+{
+	var _paquete = ds_map_create();
+	_paquete[?"nombre"] = nombre;
+	_paquete[?"descripcion"] = descripcion;
+	_paquete[?"velocidad"] = velocidad;
+	_paquete[?"poder"] = poder;
+	_paquete[?"sprite"] = sprite;
+	_paquete[?"especial"] = especial;
+	ds_list_add(control.data_poder, _paquete);
 }
 #endregion

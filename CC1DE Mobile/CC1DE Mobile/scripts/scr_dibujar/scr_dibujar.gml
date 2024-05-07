@@ -172,20 +172,23 @@ function scr_dibujar(_spr2, _spr1, _anchura, _altura, _linea_x , __x, __y, _inde
 		}
 		if (_poder)
 		{
-			if (control.estilo_actual == 2)
+			for (var i = 0; i < 3; i++)
 			{
-				_spr2 = sprite_poder1;
-				_spr1 = sprite_poder3;
-			}
-			if (control.estilo_actual == 0)
-			{
-				_spr2 = sprite_poder2;
-				_spr1 = sprite_poder1;
-			}
-			if (control.estilo_actual == 1)
-			{
-				_spr2 = sprite_poder3;
-				_spr1 = sprite_poder2;
+				if (control.estilo_actual == 2)
+				{
+					_spr2 = sprite_poder1[i];
+					_spr1 = sprite_poder3[i];
+				}
+				if (control.estilo_actual == 0)
+				{
+					_spr2 = sprite_poder2[i];
+					_spr1 = sprite_poder1[i];
+				}
+				if (control.estilo_actual == 1)
+				{
+					_spr2 = sprite_poder3[i];
+					_spr1 = sprite_poder2[i];
+				}
 			}
 		}
 		#region tamaño

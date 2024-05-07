@@ -1,6 +1,9 @@
 #region variables
 randomize();
 scr_data();
+poder_id[0] = irandom(ds_list_size(control.data_poder)-1);
+poder_id[1] = irandom(ds_list_size(control.data_poder)-1);
+poder_id[2] = irandom(ds_list_size(control.data_poder)-1);
 temblor = 0;
 temblor_intensidad = 5;
 temblor_seno = 0;
@@ -15,6 +18,8 @@ pollo_actual = 0;
 musica_index = ostCC1mg3midi;
 musica_iniciada = false;
 musica_codigo = 0;
+valor_seno = 0;
+valor_seno_real = 0;
 scr_escalado(resolucion_ancho, resolucion_alto, 2);
 window_set_fullscreen(true);
 #endregion

@@ -8,13 +8,16 @@ var _carga = 0;
 var _blend = c_gray;
 if (scr_existe(obj_jugador))
 {
-	_carga = 1-(obj_jugador.poder_enfriamiento/obj_jugador.poder_enfriamiento_total);
-	if (_carga == 1)
+	for (var i = 0 ; i < 3; i++)
 	{
-		_blend = c_white;
+		_carga = 1-(obj_jugador.poder_enfriamiento[i]/obj_jugador.poder_enfriamiento_total[i]);
+		if (_carga == 1)
+		{
+			_blend = c_white;
+		}
+		scr_dibujar(sprite_poder2[i], sprite_poder1[i], 32, 32, _xx, 24 + (32 * i), 64 + sin(valor_seno), 0, _blend, 1, _carga, _carga, 1, 1, 24, true);
 	}
 }
-scr_dibujar(sprite_poder2, sprite_poder1, 32, 32, _xx, 24, 56 + sin(valor_seno), 0, _blend, 1, _carga, _carga, 1, 1, 24, true);
 
 if (golpeado > 0)
 {

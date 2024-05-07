@@ -64,7 +64,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"CC1DE Mobile",
   "resources":[
@@ -72,6 +72,7 @@
     {"id":{"name":"fntNormal","path":"fonts/fntNormal/fntNormal.yy",},},
     {"id":{"name":"control","path":"objects/control/control.yy",},},
     {"id":{"name":"obj_camara","path":"objects/obj_camara/obj_camara.yy",},},
+    {"id":{"name":"obj_efecto","path":"objects/obj_efecto/obj_efecto.yy",},},
     {"id":{"name":"obj_enemigo_cespipollo","path":"objects/obj_enemigo_cespipollo/obj_enemigo_cespipollo.yy",},},
     {"id":{"name":"obj_enemigo_jefe_campo","path":"objects/obj_enemigo_jefe_campo/obj_enemigo_jefe_campo.yy",},},
     {"id":{"name":"obj_enemigo_pastipollo","path":"objects/obj_enemigo_pastipollo/obj_enemigo_pastipollo.yy",},},
@@ -193,6 +194,7 @@
     {"id":{"name":"scr_data","path":"scripts/scr_data/scr_data.yy",},},
     {"id":{"name":"scr_dibujar_rectangulo","path":"scripts/scr_dibujar_rectangulo/scr_dibujar_rectangulo.yy",},},
     {"id":{"name":"scr_dibujar","path":"scripts/scr_dibujar/scr_dibujar.yy",},},
+    {"id":{"name":"scr_disparo","path":"scripts/scr_disparo/scr_disparo.yy",},},
     {"id":{"name":"scr_escalado","path":"scripts/scr_escalado/scr_escalado.yy",},},
     {"id":{"name":"scr_estado","path":"scripts/scr_estado/scr_estado.yy",},},
     {"id":{"name":"scr_estilo","path":"scripts/scr_estilo/scr_estilo.yy",},},
@@ -459,6 +461,7 @@
     {"id":{"name":"sprCCDEzn1Block_c","path":"sprites/sprCCDEzn1Block_c/sprCCDEzn1Block_c.yy",},},
     {"id":{"name":"sprCCRatkCanyon","path":"sprites/sprCCRatkCanyon/sprCCRatkCanyon.yy",},},
     {"id":{"name":"sprCCRatkEgg","path":"sprites/sprCCRatkEgg/sprCCRatkEgg.yy",},},
+    {"id":{"name":"sprCCRatkEggDark","path":"sprites/sprCCRatkEggDark/sprCCRatkEggDark.yy",},},
     {"id":{"name":"sprCCRatkEggFrozen","path":"sprites/sprCCRatkEggFrozen/sprCCRatkEggFrozen.yy",},},
     {"id":{"name":"sprCCRatkEggRotten","path":"sprites/sprCCRatkEggRotten/sprCCRatkEggRotten.yy",},},
     {"id":{"name":"sprCCRatkHuevo","path":"sprites/sprCCRatkHuevo/sprCCRatkHuevo.yy",},},

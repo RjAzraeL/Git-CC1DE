@@ -1,5 +1,13 @@
 #region variable
 event_inherited();
+color1[0] = 192;
+color1[1] = 0;
+color2[0] = 35;
+color2[1] = 191;
+colorA[0] = color1[0];
+colorA[1] = color1[1];
+colorO[0] = color1[0];
+colorO[1] = color1[1];
 aumento = 10;
 poder = 0;
 bando = 0;
@@ -15,4 +23,8 @@ angulo_real = 0;
 spr_cc1 = sprCC1atkEgg;
 spr_cc2 = sprCCRatkEgg;
 spr_cc3 = sprSCCatkEgg;
+traslucido = false;
+color = false;
+rastro = false;
+ultima_posicion = ds_list_create();
 #endregion

@@ -18,3 +18,11 @@ else
 	flama_tiempo = 3;
 }
 #endregion
+#region valor seno
+valor_seno += .1;
+if (valor_seno >= 2*pi)
+{
+	valor_seno = 0;
+}
+valor_seno_real = sin(valor_seno);
+#endregion

@@ -51,6 +51,7 @@
   "ResourceOrderSettings":[
     {"name":"control","order":4,"path":"objects/control/control.yy",},
     {"name":"obj_camara","order":6,"path":"objects/obj_camara/obj_camara.yy",},
+    {"name":"obj_efecto","order":21,"path":"objects/obj_efecto/obj_efecto.yy",},
     {"name":"obj_enemigo_jefe_campo","order":1,"path":"objects/obj_enemigo_jefe_campo/obj_enemigo_jefe_campo.yy",},
     {"name":"obj_enemigo_pastipollo","order":2,"path":"objects/obj_enemigo_pastipollo/obj_enemigo_pastipollo.yy",},
     {"name":"obj_jugador","order":3,"path":"objects/obj_jugador/obj_jugador.yy",},
@@ -151,6 +152,7 @@
     {"name":"scr_crear_lista","order":3,"path":"scripts/scr_crear_lista/scr_crear_lista.yy",},
     {"name":"scr_dame_dato","order":4,"path":"scripts/scr_dame_dato/scr_dame_dato.yy",},
     {"name":"scr_dibujar_rectangulo","order":5,"path":"scripts/scr_dibujar_rectangulo/scr_dibujar_rectangulo.yy",},
+    {"name":"scr_disparo","order":3,"path":"scripts/scr_disparo/scr_disparo.yy",},
     {"name":"scr_escalado","order":6,"path":"scripts/scr_escalado/scr_escalado.yy",},
     {"name":"scr_estado","order":1,"path":"scripts/scr_estado/scr_estado.yy",},
     {"name":"scr_estilo","order":1,"path":"scripts/scr_estilo/scr_estilo.yy",},
@@ -405,6 +407,7 @@
     {"name":"sprCCDEzn1Block_c","order":31,"path":"sprites/sprCCDEzn1Block_c/sprCCDEzn1Block_c.yy",},
     {"name":"sprCCRatkCanyon","order":15,"path":"sprites/sprCCRatkCanyon/sprCCRatkCanyon.yy",},
     {"name":"sprCCRatkEgg","order":16,"path":"sprites/sprCCRatkEgg/sprCCRatkEgg.yy",},
+    {"name":"sprCCRatkEggDark","order":46,"path":"sprites/sprCCRatkEggDark/sprCCRatkEggDark.yy",},
     {"name":"sprCCRatkEggFrozen","order":17,"path":"sprites/sprCCRatkEggFrozen/sprCCRatkEggFrozen.yy",},
     {"name":"sprCCRatkEggRotten","order":18,"path":"sprites/sprCCRatkEggRotten/sprCCRatkEggRotten.yy",},
     {"name":"sprCCRatkHuevo","order":27,"path":"sprites/sprCCRatkHuevo/sprCCRatkHuevo.yy",},

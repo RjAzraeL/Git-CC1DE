@@ -15,9 +15,12 @@ spr_cc1 = scr_pollo_dame_cc1(control.pollo_actual);
 spr_cc2 = scr_pollo_dame_ccr(control.pollo_actual);
 spr_cc3 = scr_pollo_dame_scc(control.pollo_actual);
 sprite_pollo = sprCC1skinPollier;
-sprite_poder1 = sprCC1atkEgg;
-sprite_poder2 = sprCCRatkEgg;
-sprite_poder3 = sprSCCatkEgg;
+for (var i = 0; i < 3; i++)
+{
+	sprite_poder1[i] = scr_dame_dato(control.data_poder, control.poder_id[i], "sprite")[|0];
+	sprite_poder2[i] = scr_dame_dato(control.data_poder, control.poder_id[i], "sprite")[|1];
+	sprite_poder3[i] = scr_dame_dato(control.data_poder, control.poder_id[i], "sprite")[|2];
+}
 escala_x_real = 1;
 escala_y_real = 1;
 angulo_real = 1;

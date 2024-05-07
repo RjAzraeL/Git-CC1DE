@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_disparo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_disparo",
+  "parent":{
+    "name":"entidad",
+    "path":"folders/Codigos/entidad.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

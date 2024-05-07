@@ -5,8 +5,12 @@ var tecla_derecha_activa = keyboard_check(tecla_derecha) or btn_der;
 var tecla_derecha_presionada = keyboard_check_pressed(tecla_derecha);
 var tecla_salto_activa = keyboard_check(tecla_salto);
 var tecla_salto_presionada = keyboard_check_pressed(tecla_salto);
-var tecla_disparo_activa = keyboard_check(tecla_disparo);
-var tecla_disparo_presionada = keyboard_check_pressed(tecla_disparo);
+var tecla_disparo1_activa = keyboard_check(tecla_disparo[0]);
+var tecla_disparo1_presionada = keyboard_check_pressed(tecla_disparo[0]);
+var tecla_disparo2_activa = keyboard_check(tecla_disparo[1]);
+var tecla_disparo2_presionada = keyboard_check_pressed(tecla_disparo[1]);
+var tecla_disparo3_activa = keyboard_check(tecla_disparo[2]);
+var tecla_disparo3_presionada = keyboard_check_pressed(tecla_disparo[2]);
 var tecla_estilo_activa = keyboard_check(tecla_estilo);
 #endregion
 #region movimiento
@@ -108,18 +112,29 @@ y = clamp(y + movimiento_vertical, 16, room_height+32);
 #endregion
 #endregion
 #region disparo
-if (poder_enfriamiento > 0)
+if (poder_enfriamiento[0] > 0)
 {
-	poder_enfriamiento--;
+	poder_enfriamiento[0]--;
 }
-else if (tecla_disparo_activa and !nivel_ganado)
+else if (tecla_disparo1_activa and !nivel_ganado)
 {
-	poder_enfriamiento = poder_enfriamiento_total;
-	var _poder = instance_create_depth(x, y, depth, obj_poder_huevo);
-	_poder.movimiento_horizontal = poder_velocidad*ultima_direccion;
-	_poder.bando = bando;
-	escala_y_real = .75;
-	escala_x_real = 1.25*ultima_direccion;
+	scr_disparo(0);
+}
+if (poder_enfriamiento[1] > 0)
+{
+	poder_enfriamiento[1]--;
+}
+else if (tecla_disparo2_activa and !nivel_ganado)
+{
+	scr_disparo(1);
+}
+if (poder_enfriamiento[2] > 0)
+{
+	poder_enfriamiento[2]--;
+}
+else if (tecla_disparo3_activa and !nivel_ganado)
+{
+	scr_disparo(2);
 }
 #endregion
 #region lastimado
